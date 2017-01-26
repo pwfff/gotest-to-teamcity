@@ -1,0 +1,451 @@
+=== RUN   TestOfficialDockerHubImages
+=== RUN   TestOfficialDockerHubImages/001:aerospike
+=== RUN   TestOfficialDockerHubImages/002:alpine
+=== RUN   TestOfficialDockerHubImages/003:arangodb
+=== RUN   TestOfficialDockerHubImages/004:backdrop
+=== RUN   TestOfficialDockerHubImages/005:bonita
+=== RUN   TestOfficialDockerHubImages/006:busybox
+=== RUN   TestOfficialDockerHubImages/007:cassandra
+=== RUN   TestOfficialDockerHubImages/008:celery
+=== RUN   TestOfficialDockerHubImages/009:centos
+=== RUN   TestOfficialDockerHubImages/010:chronograf
+=== RUN   TestOfficialDockerHubImages/011:cirros
+=== RUN   TestOfficialDockerHubImages/012:clearlinux
+=== RUN   TestOfficialDockerHubImages/013:clojure
+=== RUN   TestOfficialDockerHubImages/014:consul
+=== RUN   TestOfficialDockerHubImages/015:couchbase
+=== RUN   TestOfficialDockerHubImages/016:couchdb
+=== RUN   TestOfficialDockerHubImages/017:crate
+=== RUN   TestOfficialDockerHubImages/018:crux
+=== RUN   TestOfficialDockerHubImages/019:debian
+=== RUN   TestOfficialDockerHubImages/020:django
+=== RUN   TestOfficialDockerHubImages/021:drupal
+=== RUN   TestOfficialDockerHubImages/022:eggdrop
+=== RUN   TestOfficialDockerHubImages/023:elasticsearch
+=== RUN   TestOfficialDockerHubImages/024:elixir
+=== RUN   TestOfficialDockerHubImages/025:erlang
+=== RUN   TestOfficialDockerHubImages/026:fedora
+=== RUN   TestOfficialDockerHubImages/027:fsharp
+=== RUN   TestOfficialDockerHubImages/028:gazebo
+=== RUN   TestOfficialDockerHubImages/029:gcc
+=== RUN   TestOfficialDockerHubImages/030:ghost
+=== RUN   TestOfficialDockerHubImages/031:glassfish
+=== RUN   TestOfficialDockerHubImages/032:golang
+=== RUN   TestOfficialDockerHubImages/033:haskell
+=== RUN   TestOfficialDockerHubImages/034:hello-seattle
+=== RUN   TestOfficialDockerHubImages/035:hello-world
+=== RUN   TestOfficialDockerHubImages/036:hipache
+=== RUN   TestOfficialDockerHubImages/037:hola-mundo
+=== RUN   TestOfficialDockerHubImages/038:httpd
+=== RUN   TestOfficialDockerHubImages/039:hylang
+=== RUN   TestOfficialDockerHubImages/040:ibmjava
+=== RUN   TestOfficialDockerHubImages/041:influxdb
+=== RUN   TestOfficialDockerHubImages/042:iojs
+=== RUN   TestOfficialDockerHubImages/043:irssi
+=== RUN   TestOfficialDockerHubImages/044:jenkins
+=== RUN   TestOfficialDockerHubImages/045:jetty
+=== RUN   TestOfficialDockerHubImages/046:joomla
+=== RUN   TestOfficialDockerHubImages/047:jruby
+=== RUN   TestOfficialDockerHubImages/048:julia
+=== RUN   TestOfficialDockerHubImages/049:kaazing-gateway
+=== RUN   TestOfficialDockerHubImages/050:kapacitor
+=== RUN   TestOfficialDockerHubImages/051:kibana
+=== RUN   TestOfficialDockerHubImages/052:kong
+=== RUN   TestOfficialDockerHubImages/053:lightstreamer
+=== RUN   TestOfficialDockerHubImages/054:logstash
+=== RUN   TestOfficialDockerHubImages/055:mageia
+=== RUN   TestOfficialDockerHubImages/056:mariadb
+=== RUN   TestOfficialDockerHubImages/057:maven
+=== RUN   TestOfficialDockerHubImages/058:memcached
+=== RUN   TestOfficialDockerHubImages/059:mongo-express
+=== RUN   TestOfficialDockerHubImages/060:mongo
+=== RUN   TestOfficialDockerHubImages/061:mono
+=== RUN   TestOfficialDockerHubImages/062:mysql
+=== RUN   TestOfficialDockerHubImages/063:nats
+=== RUN   TestOfficialDockerHubImages/064:neo4j
+=== RUN   TestOfficialDockerHubImages/065:neurodebian
+=== RUN   TestOfficialDockerHubImages/066:nginx
+=== RUN   TestOfficialDockerHubImages/067:node
+=== RUN   TestOfficialDockerHubImages/068:nuxeo
+=== RUN   TestOfficialDockerHubImages/069:odoo
+=== RUN   TestOfficialDockerHubImages/070:openjdk
+=== RUN   TestOfficialDockerHubImages/071:opensuse
+=== RUN   TestOfficialDockerHubImages/072:oraclelinux
+=== RUN   TestOfficialDockerHubImages/073:orientdb
+=== RUN   TestOfficialDockerHubImages/074:owncloud
+=== RUN   TestOfficialDockerHubImages/075:percona
+=== RUN   TestOfficialDockerHubImages/076:perl
+=== RUN   TestOfficialDockerHubImages/077:photon
+=== RUN   TestOfficialDockerHubImages/078:piwik
+=== RUN   TestOfficialDockerHubImages/079:php-zendserver
+=== RUN   TestOfficialDockerHubImages/080:php
+=== RUN   TestOfficialDockerHubImages/081:postgres
+=== RUN   TestOfficialDockerHubImages/082:pypy
+=== RUN   TestOfficialDockerHubImages/083:python
+=== RUN   TestOfficialDockerHubImages/084:r-base
+=== RUN   TestOfficialDockerHubImages/085:rabbitmq
+=== RUN   TestOfficialDockerHubImages/086:rakudo-star
+=== RUN   TestOfficialDockerHubImages/087:redis
+=== RUN   TestOfficialDockerHubImages/088:redmine
+=== RUN   TestOfficialDockerHubImages/089:registry
+=== RUN   TestOfficialDockerHubImages/090:rethinkdb
+=== RUN   TestOfficialDockerHubImages/091:rocket.chat
+=== RUN   TestOfficialDockerHubImages/092:ros
+=== RUN   TestOfficialDockerHubImages/093:ruby
+=== RUN   TestOfficialDockerHubImages/094:sentry
+=== RUN   TestOfficialDockerHubImages/095:solr
+=== RUN   TestOfficialDockerHubImages/096:sonarqube
+=== RUN   TestOfficialDockerHubImages/097:sourcemage
+=== RUN   TestOfficialDockerHubImages/098:telegraf
+=== RUN   TestOfficialDockerHubImages/099:thrift
+=== RUN   TestOfficialDockerHubImages/100:tomcat
+=== RUN   TestOfficialDockerHubImages/101:tomee
+=== RUN   TestOfficialDockerHubImages/102:ubuntu
+=== RUN   TestOfficialDockerHubImages/103:vault
+=== RUN   TestOfficialDockerHubImages/104:websphere-liberty
+=== RUN   TestOfficialDockerHubImages/105:wordpress
+--- FAIL: TestOfficialDockerHubImages (2866.45s)
+    --- SKIP: TestOfficialDockerHubImages/001:aerospike (0.00s)
+        docker_compat_test.go:94: skipping aerospike: container doesn't log to stdout. logs inaccesible through `apc app logs`
+    --- PASS: TestOfficialDockerHubImages/002:alpine (7.97s)
+    --- SKIP: TestOfficialDockerHubImages/003:arangodb (0.00s)
+        docker_compat_test.go:94: skipping arangodb: container doesn't log to stdout. logs inaccesible through `apc app logs`
+    --- PASS: TestOfficialDockerHubImages/004:backdrop (10.02s)
+    --- FAIL: TestOfficialDockerHubImages/005:bonita (10.52s)
+        docker_compat_test.go:99: found these failures in the logs:
+                Process 'app' failed
+    --- PASS: TestOfficialDockerHubImages/006:busybox (8.83s)
+    --- PASS: TestOfficialDockerHubImages/007:cassandra (24.29s)
+    --- SKIP: TestOfficialDockerHubImages/008:celery (0.00s)
+        docker_compat_test.go:94: skipping celery: celery requires a 'broker' such as RabbitMQ or Redis. As a standalone container, it will run but not produce any obvious success logs
+    --- PASS: TestOfficialDockerHubImages/009:centos (7.46s)
+    --- PASS: TestOfficialDockerHubImages/010:chronograf (8.21s)
+    --- PASS: TestOfficialDockerHubImages/011:cirros (7.66s)
+    --- PASS: TestOfficialDockerHubImages/012:clearlinux (7.43s)
+    --- PASS: TestOfficialDockerHubImages/013:clojure (8.60s)
+    --- PASS: TestOfficialDockerHubImages/014:consul (10.24s)
+    --- PASS: TestOfficialDockerHubImages/015:couchbase (8.91s)
+    --- PASS: TestOfficialDockerHubImages/016:couchdb (8.59s)
+    --- PASS: TestOfficialDockerHubImages/017:crate (20.46s)
+    --- PASS: TestOfficialDockerHubImages/018:crux (7.61s)
+    --- PASS: TestOfficialDockerHubImages/019:debian (7.41s)
+    --- PASS: TestOfficialDockerHubImages/020:django (7.87s)
+    --- PASS: TestOfficialDockerHubImages/021:drupal (9.10s)
+    --- FAIL: TestOfficialDockerHubImages/022:eggdrop (38.10s)
+        docker_compat_test.go:99: failed to run eggdrop container: failed to pull eggdrop from registry after 5 tries
+    --- FAIL: TestOfficialDockerHubImages/023:elasticsearch (11.29s)
+        docker_compat_test.go:99: found these failures in the logs:
+                Process 'app' failed
+    --- SKIP: TestOfficialDockerHubImages/024:elixir (0.00s)
+        docker_compat_test.go:94: skipping elixir: elixir immediately shuts down on continuum because there is no interactive shell session.
+    --- PASS: TestOfficialDockerHubImages/025:erlang (8.03s)
+    --- PASS: TestOfficialDockerHubImages/026:fedora (7.42s)
+    --- PASS: TestOfficialDockerHubImages/027:fsharp (8.53s)
+    --- SKIP: TestOfficialDockerHubImages/028:gazebo (0.00s)
+        docker_compat_test.go:94: skipping gazebo: container doesn't log to stdout. logs inaccesible through `apc app logs`
+    --- PASS: TestOfficialDockerHubImages/029:gcc (8.06s)
+    --- PASS: TestOfficialDockerHubImages/030:ghost (9.11s)
+    --- FAIL: TestOfficialDockerHubImages/031:glassfish (31.39s)
+        docker_compat_test.go:99: failed to run glassfish container: failed to pull glassfish from registry after 5 tries
+    --- PASS: TestOfficialDockerHubImages/032:golang (27.79s)
+    --- PASS: TestOfficialDockerHubImages/033:haskell (43.87s)
+    --- PASS: TestOfficialDockerHubImages/034:hello-seattle (13.47s)
+    --- PASS: TestOfficialDockerHubImages/035:hello-world (9.98s)
+    --- PASS: TestOfficialDockerHubImages/036:hipache (35.17s)
+    --- PASS: TestOfficialDockerHubImages/037:hola-mundo (10.78s)
+    --- PASS: TestOfficialDockerHubImages/038:httpd (21.20s)
+    --- PASS: TestOfficialDockerHubImages/039:hylang (23.18s)
+    --- PASS: TestOfficialDockerHubImages/040:ibmjava (33.89s)
+    --- PASS: TestOfficialDockerHubImages/041:influxdb (20.03s)
+    --- PASS: TestOfficialDockerHubImages/042:iojs (16.36s)
+    --- PASS: TestOfficialDockerHubImages/043:irssi (19.91s)
+    --- PASS: TestOfficialDockerHubImages/044:jenkins (68.99s)
+    --- PASS: TestOfficialDockerHubImages/045:jetty (20.22s)
+    --- SKIP: TestOfficialDockerHubImages/046:joomla (0.00s)
+        docker_compat_test.go:94: skipping joomla: joomla requires a connection to a MySQL db
+    --- PASS: TestOfficialDockerHubImages/047:jruby (31.60s)
+    --- PASS: TestOfficialDockerHubImages/048:julia (31.28s)
+    --- PASS: TestOfficialDockerHubImages/049:kaazing-gateway (26.38s)
+    --- PASS: TestOfficialDockerHubImages/050:kapacitor (18.77s)
+    --- PASS: TestOfficialDockerHubImages/051:kibana (29.13s)
+    --- SKIP: TestOfficialDockerHubImages/052:kong (0.00s)
+        docker_compat_test.go:94: skipping kong: kong requires a postgres or cassandra container
+    --- PASS: TestOfficialDockerHubImages/053:lightstreamer (21.39s)
+    --- SKIP: TestOfficialDockerHubImages/054:logstash (0.00s)
+        docker_compat_test.go:94: skipping logstash: container doesn't log to stdout. logs inaccesible through `apc app logs`
+    --- PASS: TestOfficialDockerHubImages/055:mageia (20.81s)
+    --- PASS: TestOfficialDockerHubImages/056:mariadb (61.98s)
+    --- PASS: TestOfficialDockerHubImages/057:maven (18.90s)
+    --- PASS: TestOfficialDockerHubImages/058:memcached (20.54s)
+    --- SKIP: TestOfficialDockerHubImages/059:mongo-express (0.00s)
+        docker_compat_test.go:94: skipping mongo-express: mongo-express requires a running mongo container
+    --- FAIL: TestOfficialDockerHubImages/060:mongo (35.49s)
+        docker_compat_test.go:99: container is in the "errored" state
+    --- PASS: TestOfficialDockerHubImages/061:mono (35.29s)
+    --- PASS: TestOfficialDockerHubImages/062:mysql (48.68s)
+    --- PASS: TestOfficialDockerHubImages/063:nats (11.60s)
+    --- PASS: TestOfficialDockerHubImages/064:neo4j (21.96s)
+    --- PASS: TestOfficialDockerHubImages/065:neurodebian (18.71s)
+    --- PASS: TestOfficialDockerHubImages/066:nginx (13.85s)
+    --- PASS: TestOfficialDockerHubImages/067:node (17.47s)
+    --- PASS: TestOfficialDockerHubImages/068:nuxeo (98.01s)
+    --- FAIL: TestOfficialDockerHubImages/069:odoo (137.03s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                OpenERP version
+    --- PASS: TestOfficialDockerHubImages/070:openjdk (8.48s)
+    --- PASS: TestOfficialDockerHubImages/071:opensuse (18.29s)
+    --- PASS: TestOfficialDockerHubImages/072:oraclelinux (21.12s)
+    --- PASS: TestOfficialDockerHubImages/073:orientdb (39.04s)
+    --- FAIL: TestOfficialDockerHubImages/074:owncloud (119.56s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                resuming normal operations
+                apache2 -D FOREGROUND
+    --- PASS: TestOfficialDockerHubImages/075:percona (38.93s)
+    --- PASS: TestOfficialDockerHubImages/076:perl (18.69s)
+    --- PASS: TestOfficialDockerHubImages/077:photon (19.27s)
+    --- FAIL: TestOfficialDockerHubImages/078:piwik (125.71s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                ready to handle connections
+                fpm is running
+    --- PASS: TestOfficialDockerHubImages/079:php-zendserver (149.34s)
+    --- PASS: TestOfficialDockerHubImages/080:php (19.95s)
+    --- FAIL: TestOfficialDockerHubImages/081:postgres (116.97s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                database system is ready to accept connections
+    --- PASS: TestOfficialDockerHubImages/082:pypy (17.54s)
+    --- PASS: TestOfficialDockerHubImages/083:python (8.18s)
+    --- PASS: TestOfficialDockerHubImages/084:r-base (49.50s)
+    --- PASS: TestOfficialDockerHubImages/085:rabbitmq (40.53s)
+    --- PASS: TestOfficialDockerHubImages/086:rakudo-star (15.68s)
+    --- PASS: TestOfficialDockerHubImages/087:redis (19.70s)
+    --- PASS: TestOfficialDockerHubImages/088:redmine (60.82s)
+    --- PASS: TestOfficialDockerHubImages/089:registry (21.57s)
+    --- FAIL: TestOfficialDockerHubImages/090:rethinkdb (51.13s)
+        docker_compat_test.go:99: failed to run rethinkdb container: failed to pull rethinkdb from registry after 5 tries
+    --- SKIP: TestOfficialDockerHubImages/091:rocket.chat (0.00s)
+        docker_compat_test.go:94: skipping rocket.chat: rocket.chat requires a running mongo container
+    --- PASS: TestOfficialDockerHubImages/092:ros (55.63s)
+    --- PASS: TestOfficialDockerHubImages/093:ruby (34.94s)
+    --- SKIP: TestOfficialDockerHubImages/094:sentry (0.00s)
+        docker_compat_test.go:94: skipping sentry: sentry requires a redis container
+    --- FAIL: TestOfficialDockerHubImages/095:solr (125.77s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                Starting Solr on port
+    --- PASS: TestOfficialDockerHubImages/096:sonarqube (73.77s)
+    --- PASS: TestOfficialDockerHubImages/097:sourcemage (56.42s)
+    --- SKIP: TestOfficialDockerHubImages/098:telegraf (0.00s)
+        docker_compat_test.go:94: skipping telegraf: telegraf requires a running influxdb container
+    --- PASS: TestOfficialDockerHubImages/099:thrift (15.46s)
+    --- PASS: TestOfficialDockerHubImages/100:tomcat (35.05s)
+    --- PASS: TestOfficialDockerHubImages/101:tomee (19.62s)
+    --- PASS: TestOfficialDockerHubImages/102:ubuntu (7.76s)
+    --- PASS: TestOfficialDockerHubImages/103:vault (18.66s)
+    --- PASS: TestOfficialDockerHubImages/104:websphere-liberty (56.50s)
+    --- SKIP: TestOfficialDockerHubImages/105:wordpress (0.00s)
+        docker_compat_test.go:94: skipping wordpress: mysql requires a mysql database
+FAIL
+exit status 1
+FAIL    github.com/apcera/docker-compat 2866.459s
+##teamcity[testSuiteStarted name='github.com/apcera/docker-compat']
+##teamcity[testStarted name='TestOfficialDockerHubImages']
+##teamcity[testFailed name='TestOfficialDockerHubImages']##teamcity[testFinished name='TestOfficialDockerHubImages' duration='2866450']
+##teamcity[testStarted name='TestOfficialDockerHubImages/001:aerospike']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/001:aerospike']
+##teamcity[testFinished name='TestOfficialDockerHubImages/001:aerospike' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/002:alpine']
+##teamcity[testFinished name='TestOfficialDockerHubImages/002:alpine' duration='7970']
+##teamcity[testStarted name='TestOfficialDockerHubImages/003:arangodb']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/003:arangodb']
+##teamcity[testFinished name='TestOfficialDockerHubImages/003:arangodb' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/005:bonita']
+##teamcity[testFailed name='TestOfficialDockerHubImages/005:bonita' details='        docker_compat_test.go:99: found these failures in the logs:|n                Process |'app|' failed|n']##teamcity[testFinished name='TestOfficialDockerHubImages/005:bonita' duration='10520']
+##teamcity[testStarted name='TestOfficialDockerHubImages/006:busybox']
+##teamcity[testFinished name='TestOfficialDockerHubImages/006:busybox' duration='8830']
+##teamcity[testStarted name='TestOfficialDockerHubImages/007:cassandra']
+##teamcity[testFinished name='TestOfficialDockerHubImages/007:cassandra' duration='24290']
+##teamcity[testStarted name='TestOfficialDockerHubImages/008:celery']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/008:celery']
+##teamcity[testFinished name='TestOfficialDockerHubImages/008:celery' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/009:centos']
+##teamcity[testFinished name='TestOfficialDockerHubImages/009:centos' duration='7460']
+##teamcity[testStarted name='TestOfficialDockerHubImages/010:chronograf']
+##teamcity[testFinished name='TestOfficialDockerHubImages/010:chronograf' duration='8210']
+##teamcity[testStarted name='TestOfficialDockerHubImages/011:cirros']
+##teamcity[testFinished name='TestOfficialDockerHubImages/011:cirros' duration='7660']
+##teamcity[testStarted name='TestOfficialDockerHubImages/012:clearlinux']
+##teamcity[testFinished name='TestOfficialDockerHubImages/012:clearlinux' duration='7430']
+##teamcity[testStarted name='TestOfficialDockerHubImages/013:clojure']
+##teamcity[testFinished name='TestOfficialDockerHubImages/013:clojure' duration='8600']
+##teamcity[testStarted name='TestOfficialDockerHubImages/014:consul']
+##teamcity[testFinished name='TestOfficialDockerHubImages/014:consul' duration='10240']
+##teamcity[testStarted name='TestOfficialDockerHubImages/015:couchbase']
+##teamcity[testFinished name='TestOfficialDockerHubImages/015:couchbase' duration='8910']
+##teamcity[testStarted name='TestOfficialDockerHubImages/016:couchdb']
+##teamcity[testFinished name='TestOfficialDockerHubImages/016:couchdb' duration='8590']
+##teamcity[testStarted name='TestOfficialDockerHubImages/017:crate']
+##teamcity[testFinished name='TestOfficialDockerHubImages/017:crate' duration='20460']
+##teamcity[testStarted name='TestOfficialDockerHubImages/018:crux']
+##teamcity[testFinished name='TestOfficialDockerHubImages/018:crux' duration='7610']
+##teamcity[testStarted name='TestOfficialDockerHubImages/019:debian']
+##teamcity[testFinished name='TestOfficialDockerHubImages/019:debian' duration='7410']
+##teamcity[testStarted name='TestOfficialDockerHubImages/020:django']
+##teamcity[testFinished name='TestOfficialDockerHubImages/020:django' duration='7870']
+##teamcity[testStarted name='TestOfficialDockerHubImages/023:elasticsearch']
+##teamcity[testFailed name='TestOfficialDockerHubImages/023:elasticsearch' details='        docker_compat_test.go:99: found these failures in the logs:|n                Process |'app|' failed|n']##teamcity[testFinished name='TestOfficialDockerHubImages/023:elasticsearch' duration='11290']
+##teamcity[testStarted name='TestOfficialDockerHubImages/024:elixir']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/024:elixir']
+##teamcity[testFinished name='TestOfficialDockerHubImages/024:elixir' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/025:erlang']
+##teamcity[testFinished name='TestOfficialDockerHubImages/025:erlang' duration='8029']
+##teamcity[testStarted name='TestOfficialDockerHubImages/026:fedora']
+##teamcity[testFinished name='TestOfficialDockerHubImages/026:fedora' duration='7420']
+##teamcity[testStarted name='TestOfficialDockerHubImages/027:fsharp']
+##teamcity[testFinished name='TestOfficialDockerHubImages/027:fsharp' duration='8530']
+##teamcity[testStarted name='TestOfficialDockerHubImages/028:gazebo']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/028:gazebo']
+##teamcity[testFinished name='TestOfficialDockerHubImages/028:gazebo' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/029:gcc']
+##teamcity[testFinished name='TestOfficialDockerHubImages/029:gcc' duration='8060']
+##teamcity[testStarted name='TestOfficialDockerHubImages/031:glassfish']
+##teamcity[testFailed name='TestOfficialDockerHubImages/031:glassfish' details='        docker_compat_test.go:99: failed to run glassfish container: failed to pull glassfish from registry after 5 tries|n']##teamcity[testFinished name='TestOfficialDockerHubImages/031:glassfish' duration='31390']
+##teamcity[testStarted name='TestOfficialDockerHubImages/032:golang']
+##teamcity[testFinished name='TestOfficialDockerHubImages/032:golang' duration='27790']
+##teamcity[testStarted name='TestOfficialDockerHubImages/033:haskell']
+##teamcity[testFinished name='TestOfficialDockerHubImages/033:haskell' duration='43870']
+##teamcity[testStarted name='TestOfficialDockerHubImages/034:hello-seattle']
+##teamcity[testFinished name='TestOfficialDockerHubImages/034:hello-seattle' duration='13470']
+##teamcity[testStarted name='TestOfficialDockerHubImages/035:hello-world']
+##teamcity[testFinished name='TestOfficialDockerHubImages/035:hello-world' duration='9980']
+##teamcity[testStarted name='TestOfficialDockerHubImages/036:hipache']
+##teamcity[testFinished name='TestOfficialDockerHubImages/036:hipache' duration='35170']
+##teamcity[testStarted name='TestOfficialDockerHubImages/037:hola-mundo']
+##teamcity[testFinished name='TestOfficialDockerHubImages/037:hola-mundo' duration='10780']
+##teamcity[testStarted name='TestOfficialDockerHubImages/038:httpd']
+##teamcity[testFinished name='TestOfficialDockerHubImages/038:httpd' duration='21200']
+##teamcity[testStarted name='TestOfficialDockerHubImages/039:hylang']
+##teamcity[testFinished name='TestOfficialDockerHubImages/039:hylang' duration='23180']
+##teamcity[testStarted name='TestOfficialDockerHubImages/040:ibmjava']
+##teamcity[testFinished name='TestOfficialDockerHubImages/040:ibmjava' duration='33890']
+##teamcity[testStarted name='TestOfficialDockerHubImages/041:influxdb']
+##teamcity[testFinished name='TestOfficialDockerHubImages/041:influxdb' duration='20030']
+##teamcity[testStarted name='TestOfficialDockerHubImages/042:iojs']
+##teamcity[testFinished name='TestOfficialDockerHubImages/042:iojs' duration='16360']
+##teamcity[testStarted name='TestOfficialDockerHubImages/043:irssi']
+##teamcity[testFinished name='TestOfficialDockerHubImages/043:irssi' duration='19910']
+##teamcity[testStarted name='TestOfficialDockerHubImages/044:jenkins']
+##teamcity[testFinished name='TestOfficialDockerHubImages/044:jenkins' duration='68990']
+##teamcity[testStarted name='TestOfficialDockerHubImages/045:jetty']
+##teamcity[testFinished name='TestOfficialDockerHubImages/045:jetty' duration='20220']
+##teamcity[testStarted name='TestOfficialDockerHubImages/046:joomla']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/046:joomla']
+##teamcity[testFinished name='TestOfficialDockerHubImages/046:joomla' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/047:jruby']
+##teamcity[testFinished name='TestOfficialDockerHubImages/047:jruby' duration='31600']
+##teamcity[testStarted name='TestOfficialDockerHubImages/048:julia']
+##teamcity[testFinished name='TestOfficialDockerHubImages/048:julia' duration='31280']
+##teamcity[testStarted name='TestOfficialDockerHubImages/049:kaazing-gateway']
+##teamcity[testFinished name='TestOfficialDockerHubImages/049:kaazing-gateway' duration='26380']
+##teamcity[testStarted name='TestOfficialDockerHubImages/050:kapacitor']
+##teamcity[testFinished name='TestOfficialDockerHubImages/050:kapacitor' duration='18770']
+##teamcity[testStarted name='TestOfficialDockerHubImages/051:kibana']
+##teamcity[testFinished name='TestOfficialDockerHubImages/051:kibana' duration='29130']
+##teamcity[testStarted name='TestOfficialDockerHubImages/052:kong']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/052:kong']
+##teamcity[testFinished name='TestOfficialDockerHubImages/052:kong' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/053:lightstreamer']
+##teamcity[testFinished name='TestOfficialDockerHubImages/053:lightstreamer' duration='21390']
+##teamcity[testStarted name='TestOfficialDockerHubImages/054:logstash']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/054:logstash']
+##teamcity[testFinished name='TestOfficialDockerHubImages/054:logstash' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/055:mageia']
+##teamcity[testFinished name='TestOfficialDockerHubImages/055:mageia' duration='20810']
+##teamcity[testStarted name='TestOfficialDockerHubImages/056:mariadb']
+##teamcity[testFinished name='TestOfficialDockerHubImages/056:mariadb' duration='61980']
+##teamcity[testStarted name='TestOfficialDockerHubImages/057:maven']
+##teamcity[testFinished name='TestOfficialDockerHubImages/057:maven' duration='18900']
+##teamcity[testStarted name='TestOfficialDockerHubImages/058:memcached']
+##teamcity[testFinished name='TestOfficialDockerHubImages/058:memcached' duration='20540']
+##teamcity[testStarted name='TestOfficialDockerHubImages/060:mongo']
+##teamcity[testFailed name='TestOfficialDockerHubImages/060:mongo' details='        docker_compat_test.go:99: container is in the "errored" state|n']##teamcity[testFinished name='TestOfficialDockerHubImages/060:mongo' duration='35490']
+##teamcity[testStarted name='TestOfficialDockerHubImages/061:mono']
+##teamcity[testFinished name='TestOfficialDockerHubImages/061:mono' duration='35290']
+##teamcity[testStarted name='TestOfficialDockerHubImages/062:mysql']
+##teamcity[testFinished name='TestOfficialDockerHubImages/062:mysql' duration='48680']
+##teamcity[testStarted name='TestOfficialDockerHubImages/063:nats']
+##teamcity[testFinished name='TestOfficialDockerHubImages/063:nats' duration='11600']
+##teamcity[testStarted name='TestOfficialDockerHubImages/064:neo4j']
+##teamcity[testFinished name='TestOfficialDockerHubImages/064:neo4j' duration='21960']
+##teamcity[testStarted name='TestOfficialDockerHubImages/065:neurodebian']
+##teamcity[testFinished name='TestOfficialDockerHubImages/065:neurodebian' duration='18710']
+##teamcity[testStarted name='TestOfficialDockerHubImages/066:nginx']
+##teamcity[testFinished name='TestOfficialDockerHubImages/066:nginx' duration='13850']
+##teamcity[testStarted name='TestOfficialDockerHubImages/067:node']
+##teamcity[testFinished name='TestOfficialDockerHubImages/067:node' duration='17470']
+##teamcity[testStarted name='TestOfficialDockerHubImages/069:odoo']
+##teamcity[testFailed name='TestOfficialDockerHubImages/069:odoo' details='        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:|n                OpenERP version|n']##teamcity[testFinished name='TestOfficialDockerHubImages/069:odoo' duration='137030']
+##teamcity[testStarted name='TestOfficialDockerHubImages/070:openjdk']
+##teamcity[testFinished name='TestOfficialDockerHubImages/070:openjdk' duration='8480']
+##teamcity[testStarted name='TestOfficialDockerHubImages/071:opensuse']
+##teamcity[testFinished name='TestOfficialDockerHubImages/071:opensuse' duration='18290']
+##teamcity[testStarted name='TestOfficialDockerHubImages/072:oraclelinux']
+##teamcity[testFinished name='TestOfficialDockerHubImages/072:oraclelinux' duration='21120']
+##teamcity[testStarted name='TestOfficialDockerHubImages/074:owncloud']
+##teamcity[testFailed name='TestOfficialDockerHubImages/074:owncloud' details='        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:|n                resuming normal operations|n                apache2 -D FOREGROUND|n']##teamcity[testFinished name='TestOfficialDockerHubImages/074:owncloud' duration='119560']
+##teamcity[testStarted name='TestOfficialDockerHubImages/075:percona']
+##teamcity[testFinished name='TestOfficialDockerHubImages/075:percona' duration='38930']
+##teamcity[testStarted name='TestOfficialDockerHubImages/076:perl']
+##teamcity[testFinished name='TestOfficialDockerHubImages/076:perl' duration='18690']
+##teamcity[testStarted name='TestOfficialDockerHubImages/078:piwik']
+##teamcity[testFailed name='TestOfficialDockerHubImages/078:piwik' details='        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:|n                ready to handle connections|n                fpm is running|n']##teamcity[testFinished name='TestOfficialDockerHubImages/078:piwik' duration='125710']
+##teamcity[testStarted name='TestOfficialDockerHubImages/079:php-zendserver']
+##teamcity[testFinished name='TestOfficialDockerHubImages/079:php-zendserver' duration='149340']
+##teamcity[testStarted name='TestOfficialDockerHubImages/081:postgres']
+##teamcity[testFailed name='TestOfficialDockerHubImages/081:postgres' details='        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:|n                database system is ready to accept connections|n']##teamcity[testFinished name='TestOfficialDockerHubImages/081:postgres' duration='116970']
+##teamcity[testStarted name='TestOfficialDockerHubImages/082:pypy']
+##teamcity[testFinished name='TestOfficialDockerHubImages/082:pypy' duration='17540']
+##teamcity[testStarted name='TestOfficialDockerHubImages/083:python']
+##teamcity[testFinished name='TestOfficialDockerHubImages/083:python' duration='8180']
+##teamcity[testStarted name='TestOfficialDockerHubImages/084:r-base']
+##teamcity[testFinished name='TestOfficialDockerHubImages/084:r-base' duration='49500']
+##teamcity[testStarted name='TestOfficialDockerHubImages/085:rabbitmq']
+##teamcity[testFinished name='TestOfficialDockerHubImages/085:rabbitmq' duration='40530']
+##teamcity[testStarted name='TestOfficialDockerHubImages/086:rakudo-star']
+##teamcity[testFinished name='TestOfficialDockerHubImages/086:rakudo-star' duration='15680']
+##teamcity[testStarted name='TestOfficialDockerHubImages/087:redis']
+##teamcity[testFinished name='TestOfficialDockerHubImages/087:redis' duration='19700']
+##teamcity[testStarted name='TestOfficialDockerHubImages/088:redmine']
+##teamcity[testFinished name='TestOfficialDockerHubImages/088:redmine' duration='60820']
+##teamcity[testStarted name='TestOfficialDockerHubImages/090:rethinkdb']
+##teamcity[testFailed name='TestOfficialDockerHubImages/090:rethinkdb' details='        docker_compat_test.go:99: failed to run rethinkdb container: failed to pull rethinkdb from registry after 5 tries|n']##teamcity[testFinished name='TestOfficialDockerHubImages/090:rethinkdb' duration='51130']
+##teamcity[testStarted name='TestOfficialDockerHubImages/091:rocket.chat']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/091:rocket.chat']
+##teamcity[testFinished name='TestOfficialDockerHubImages/091:rocket.chat' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/092:ros']
+##teamcity[testFinished name='TestOfficialDockerHubImages/092:ros' duration='55630']
+##teamcity[testStarted name='TestOfficialDockerHubImages/093:ruby']
+##teamcity[testFinished name='TestOfficialDockerHubImages/093:ruby' duration='34940']
+##teamcity[testStarted name='TestOfficialDockerHubImages/095:solr']
+##teamcity[testFailed name='TestOfficialDockerHubImages/095:solr' details='        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:|n                Starting Solr on port|n']##teamcity[testFinished name='TestOfficialDockerHubImages/095:solr' duration='125770']
+##teamcity[testStarted name='TestOfficialDockerHubImages/096:sonarqube']
+##teamcity[testFinished name='TestOfficialDockerHubImages/096:sonarqube' duration='73770']
+##teamcity[testStarted name='TestOfficialDockerHubImages/097:sourcemage']
+##teamcity[testFinished name='TestOfficialDockerHubImages/097:sourcemage' duration='56420']
+##teamcity[testStarted name='TestOfficialDockerHubImages/098:telegraf']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/098:telegraf']
+##teamcity[testFinished name='TestOfficialDockerHubImages/098:telegraf' duration='0']
+##teamcity[testStarted name='TestOfficialDockerHubImages/099:thrift']
+##teamcity[testFinished name='TestOfficialDockerHubImages/099:thrift' duration='15460']
+##teamcity[testStarted name='TestOfficialDockerHubImages/100:tomcat']
+##teamcity[testFinished name='TestOfficialDockerHubImages/100:tomcat' duration='35050']
+##teamcity[testStarted name='TestOfficialDockerHubImages/101:tomee']
+##teamcity[testFinished name='TestOfficialDockerHubImages/101:tomee' duration='19620']
+##teamcity[testStarted name='TestOfficialDockerHubImages/102:ubuntu']
+##teamcity[testFinished name='TestOfficialDockerHubImages/102:ubuntu' duration='7760']
+##teamcity[testStarted name='TestOfficialDockerHubImages/103:vault']
+##teamcity[testFinished name='TestOfficialDockerHubImages/103:vault' duration='18660']
+##teamcity[testStarted name='TestOfficialDockerHubImages/104:websphere-liberty']
+##teamcity[testFinished name='TestOfficialDockerHubImages/104:websphere-liberty' duration='56500']
+##teamcity[testStarted name='TestOfficialDockerHubImages/105:wordpress']
+##teamcity[testIgnored name='TestOfficialDockerHubImages/105:wordpress']
+##teamcity[testFinished name='TestOfficialDockerHubImages/105:wordpress' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/docker-compat']

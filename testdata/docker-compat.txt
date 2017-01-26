@@ -1,0 +1,248 @@
+=== RUN   TestOfficialDockerHubImages
+=== RUN   TestOfficialDockerHubImages/001:aerospike
+=== RUN   TestOfficialDockerHubImages/002:alpine
+=== RUN   TestOfficialDockerHubImages/003:arangodb
+=== RUN   TestOfficialDockerHubImages/004:backdrop
+=== RUN   TestOfficialDockerHubImages/005:bonita
+=== RUN   TestOfficialDockerHubImages/006:busybox
+=== RUN   TestOfficialDockerHubImages/007:cassandra
+=== RUN   TestOfficialDockerHubImages/008:celery
+=== RUN   TestOfficialDockerHubImages/009:centos
+=== RUN   TestOfficialDockerHubImages/010:chronograf
+=== RUN   TestOfficialDockerHubImages/011:cirros
+=== RUN   TestOfficialDockerHubImages/012:clearlinux
+=== RUN   TestOfficialDockerHubImages/013:clojure
+=== RUN   TestOfficialDockerHubImages/014:consul
+=== RUN   TestOfficialDockerHubImages/015:couchbase
+=== RUN   TestOfficialDockerHubImages/016:couchdb
+=== RUN   TestOfficialDockerHubImages/017:crate
+=== RUN   TestOfficialDockerHubImages/018:crux
+=== RUN   TestOfficialDockerHubImages/019:debian
+=== RUN   TestOfficialDockerHubImages/020:django
+=== RUN   TestOfficialDockerHubImages/021:drupal
+=== RUN   TestOfficialDockerHubImages/022:eggdrop
+=== RUN   TestOfficialDockerHubImages/023:elasticsearch
+=== RUN   TestOfficialDockerHubImages/024:elixir
+=== RUN   TestOfficialDockerHubImages/025:erlang
+=== RUN   TestOfficialDockerHubImages/026:fedora
+=== RUN   TestOfficialDockerHubImages/027:fsharp
+=== RUN   TestOfficialDockerHubImages/028:gazebo
+=== RUN   TestOfficialDockerHubImages/029:gcc
+=== RUN   TestOfficialDockerHubImages/030:ghost
+=== RUN   TestOfficialDockerHubImages/031:glassfish
+=== RUN   TestOfficialDockerHubImages/032:golang
+=== RUN   TestOfficialDockerHubImages/033:haskell
+=== RUN   TestOfficialDockerHubImages/034:hello-seattle
+=== RUN   TestOfficialDockerHubImages/035:hello-world
+=== RUN   TestOfficialDockerHubImages/036:hipache
+=== RUN   TestOfficialDockerHubImages/037:hola-mundo
+=== RUN   TestOfficialDockerHubImages/038:httpd
+=== RUN   TestOfficialDockerHubImages/039:hylang
+=== RUN   TestOfficialDockerHubImages/040:ibmjava
+=== RUN   TestOfficialDockerHubImages/041:influxdb
+=== RUN   TestOfficialDockerHubImages/042:iojs
+=== RUN   TestOfficialDockerHubImages/043:irssi
+=== RUN   TestOfficialDockerHubImages/044:jenkins
+=== RUN   TestOfficialDockerHubImages/045:jetty
+=== RUN   TestOfficialDockerHubImages/046:joomla
+=== RUN   TestOfficialDockerHubImages/047:jruby
+=== RUN   TestOfficialDockerHubImages/048:julia
+=== RUN   TestOfficialDockerHubImages/049:kaazing-gateway
+=== RUN   TestOfficialDockerHubImages/050:kapacitor
+=== RUN   TestOfficialDockerHubImages/051:kibana
+=== RUN   TestOfficialDockerHubImages/052:kong
+=== RUN   TestOfficialDockerHubImages/053:lightstreamer
+=== RUN   TestOfficialDockerHubImages/054:logstash
+=== RUN   TestOfficialDockerHubImages/055:mageia
+=== RUN   TestOfficialDockerHubImages/056:mariadb
+=== RUN   TestOfficialDockerHubImages/057:maven
+=== RUN   TestOfficialDockerHubImages/058:memcached
+=== RUN   TestOfficialDockerHubImages/059:mongo-express
+=== RUN   TestOfficialDockerHubImages/060:mongo
+=== RUN   TestOfficialDockerHubImages/061:mono
+=== RUN   TestOfficialDockerHubImages/062:mysql
+=== RUN   TestOfficialDockerHubImages/063:nats
+=== RUN   TestOfficialDockerHubImages/064:neo4j
+=== RUN   TestOfficialDockerHubImages/065:neurodebian
+=== RUN   TestOfficialDockerHubImages/066:nginx
+=== RUN   TestOfficialDockerHubImages/067:node
+=== RUN   TestOfficialDockerHubImages/068:nuxeo
+=== RUN   TestOfficialDockerHubImages/069:odoo
+=== RUN   TestOfficialDockerHubImages/070:openjdk
+=== RUN   TestOfficialDockerHubImages/071:opensuse
+=== RUN   TestOfficialDockerHubImages/072:oraclelinux
+=== RUN   TestOfficialDockerHubImages/073:orientdb
+=== RUN   TestOfficialDockerHubImages/074:owncloud
+=== RUN   TestOfficialDockerHubImages/075:percona
+=== RUN   TestOfficialDockerHubImages/076:perl
+=== RUN   TestOfficialDockerHubImages/077:photon
+=== RUN   TestOfficialDockerHubImages/078:piwik
+=== RUN   TestOfficialDockerHubImages/079:php-zendserver
+=== RUN   TestOfficialDockerHubImages/080:php
+=== RUN   TestOfficialDockerHubImages/081:postgres
+=== RUN   TestOfficialDockerHubImages/082:pypy
+=== RUN   TestOfficialDockerHubImages/083:python
+=== RUN   TestOfficialDockerHubImages/084:r-base
+=== RUN   TestOfficialDockerHubImages/085:rabbitmq
+=== RUN   TestOfficialDockerHubImages/086:rakudo-star
+=== RUN   TestOfficialDockerHubImages/087:redis
+=== RUN   TestOfficialDockerHubImages/088:redmine
+=== RUN   TestOfficialDockerHubImages/089:registry
+=== RUN   TestOfficialDockerHubImages/090:rethinkdb
+=== RUN   TestOfficialDockerHubImages/091:rocket.chat
+=== RUN   TestOfficialDockerHubImages/092:ros
+=== RUN   TestOfficialDockerHubImages/093:ruby
+=== RUN   TestOfficialDockerHubImages/094:sentry
+=== RUN   TestOfficialDockerHubImages/095:solr
+=== RUN   TestOfficialDockerHubImages/096:sonarqube
+=== RUN   TestOfficialDockerHubImages/097:sourcemage
+=== RUN   TestOfficialDockerHubImages/098:telegraf
+=== RUN   TestOfficialDockerHubImages/099:thrift
+=== RUN   TestOfficialDockerHubImages/100:tomcat
+=== RUN   TestOfficialDockerHubImages/101:tomee
+=== RUN   TestOfficialDockerHubImages/102:ubuntu
+=== RUN   TestOfficialDockerHubImages/103:vault
+=== RUN   TestOfficialDockerHubImages/104:websphere-liberty
+=== RUN   TestOfficialDockerHubImages/105:wordpress
+--- FAIL: TestOfficialDockerHubImages (2866.45s)
+    --- SKIP: TestOfficialDockerHubImages/001:aerospike (0.00s)
+        docker_compat_test.go:94: skipping aerospike: container doesn't log to stdout. logs inaccesible through `apc app logs`
+    --- PASS: TestOfficialDockerHubImages/002:alpine (7.97s)
+    --- SKIP: TestOfficialDockerHubImages/003:arangodb (0.00s)
+        docker_compat_test.go:94: skipping arangodb: container doesn't log to stdout. logs inaccesible through `apc app logs`
+    --- PASS: TestOfficialDockerHubImages/004:backdrop (10.02s)
+    --- FAIL: TestOfficialDockerHubImages/005:bonita (10.52s)
+        docker_compat_test.go:99: found these failures in the logs:
+                Process 'app' failed
+    --- PASS: TestOfficialDockerHubImages/006:busybox (8.83s)
+    --- PASS: TestOfficialDockerHubImages/007:cassandra (24.29s)
+    --- SKIP: TestOfficialDockerHubImages/008:celery (0.00s)
+        docker_compat_test.go:94: skipping celery: celery requires a 'broker' such as RabbitMQ or Redis. As a standalone container, it will run but not produce any obvious success logs
+    --- PASS: TestOfficialDockerHubImages/009:centos (7.46s)
+    --- PASS: TestOfficialDockerHubImages/010:chronograf (8.21s)
+    --- PASS: TestOfficialDockerHubImages/011:cirros (7.66s)
+    --- PASS: TestOfficialDockerHubImages/012:clearlinux (7.43s)
+    --- PASS: TestOfficialDockerHubImages/013:clojure (8.60s)
+    --- PASS: TestOfficialDockerHubImages/014:consul (10.24s)
+    --- PASS: TestOfficialDockerHubImages/015:couchbase (8.91s)
+    --- PASS: TestOfficialDockerHubImages/016:couchdb (8.59s)
+    --- PASS: TestOfficialDockerHubImages/017:crate (20.46s)
+    --- PASS: TestOfficialDockerHubImages/018:crux (7.61s)
+    --- PASS: TestOfficialDockerHubImages/019:debian (7.41s)
+    --- PASS: TestOfficialDockerHubImages/020:django (7.87s)
+    --- PASS: TestOfficialDockerHubImages/021:drupal (9.10s)
+    --- FAIL: TestOfficialDockerHubImages/022:eggdrop (38.10s)
+        docker_compat_test.go:99: failed to run eggdrop container: failed to pull eggdrop from registry after 5 tries
+    --- FAIL: TestOfficialDockerHubImages/023:elasticsearch (11.29s)
+        docker_compat_test.go:99: found these failures in the logs:
+                Process 'app' failed
+    --- SKIP: TestOfficialDockerHubImages/024:elixir (0.00s)
+        docker_compat_test.go:94: skipping elixir: elixir immediately shuts down on continuum because there is no interactive shell session.
+    --- PASS: TestOfficialDockerHubImages/025:erlang (8.03s)
+    --- PASS: TestOfficialDockerHubImages/026:fedora (7.42s)
+    --- PASS: TestOfficialDockerHubImages/027:fsharp (8.53s)
+    --- SKIP: TestOfficialDockerHubImages/028:gazebo (0.00s)
+        docker_compat_test.go:94: skipping gazebo: container doesn't log to stdout. logs inaccesible through `apc app logs`
+    --- PASS: TestOfficialDockerHubImages/029:gcc (8.06s)
+    --- PASS: TestOfficialDockerHubImages/030:ghost (9.11s)
+    --- FAIL: TestOfficialDockerHubImages/031:glassfish (31.39s)
+        docker_compat_test.go:99: failed to run glassfish container: failed to pull glassfish from registry after 5 tries
+    --- PASS: TestOfficialDockerHubImages/032:golang (27.79s)
+    --- PASS: TestOfficialDockerHubImages/033:haskell (43.87s)
+    --- PASS: TestOfficialDockerHubImages/034:hello-seattle (13.47s)
+    --- PASS: TestOfficialDockerHubImages/035:hello-world (9.98s)
+    --- PASS: TestOfficialDockerHubImages/036:hipache (35.17s)
+    --- PASS: TestOfficialDockerHubImages/037:hola-mundo (10.78s)
+    --- PASS: TestOfficialDockerHubImages/038:httpd (21.20s)
+    --- PASS: TestOfficialDockerHubImages/039:hylang (23.18s)
+    --- PASS: TestOfficialDockerHubImages/040:ibmjava (33.89s)
+    --- PASS: TestOfficialDockerHubImages/041:influxdb (20.03s)
+    --- PASS: TestOfficialDockerHubImages/042:iojs (16.36s)
+    --- PASS: TestOfficialDockerHubImages/043:irssi (19.91s)
+    --- PASS: TestOfficialDockerHubImages/044:jenkins (68.99s)
+    --- PASS: TestOfficialDockerHubImages/045:jetty (20.22s)
+    --- SKIP: TestOfficialDockerHubImages/046:joomla (0.00s)
+        docker_compat_test.go:94: skipping joomla: joomla requires a connection to a MySQL db
+    --- PASS: TestOfficialDockerHubImages/047:jruby (31.60s)
+    --- PASS: TestOfficialDockerHubImages/048:julia (31.28s)
+    --- PASS: TestOfficialDockerHubImages/049:kaazing-gateway (26.38s)
+    --- PASS: TestOfficialDockerHubImages/050:kapacitor (18.77s)
+    --- PASS: TestOfficialDockerHubImages/051:kibana (29.13s)
+    --- SKIP: TestOfficialDockerHubImages/052:kong (0.00s)
+        docker_compat_test.go:94: skipping kong: kong requires a postgres or cassandra container
+    --- PASS: TestOfficialDockerHubImages/053:lightstreamer (21.39s)
+    --- SKIP: TestOfficialDockerHubImages/054:logstash (0.00s)
+        docker_compat_test.go:94: skipping logstash: container doesn't log to stdout. logs inaccesible through `apc app logs`
+    --- PASS: TestOfficialDockerHubImages/055:mageia (20.81s)
+    --- PASS: TestOfficialDockerHubImages/056:mariadb (61.98s)
+    --- PASS: TestOfficialDockerHubImages/057:maven (18.90s)
+    --- PASS: TestOfficialDockerHubImages/058:memcached (20.54s)
+    --- SKIP: TestOfficialDockerHubImages/059:mongo-express (0.00s)
+        docker_compat_test.go:94: skipping mongo-express: mongo-express requires a running mongo container
+    --- FAIL: TestOfficialDockerHubImages/060:mongo (35.49s)
+        docker_compat_test.go:99: container is in the "errored" state
+    --- PASS: TestOfficialDockerHubImages/061:mono (35.29s)
+    --- PASS: TestOfficialDockerHubImages/062:mysql (48.68s)
+    --- PASS: TestOfficialDockerHubImages/063:nats (11.60s)
+    --- PASS: TestOfficialDockerHubImages/064:neo4j (21.96s)
+    --- PASS: TestOfficialDockerHubImages/065:neurodebian (18.71s)
+    --- PASS: TestOfficialDockerHubImages/066:nginx (13.85s)
+    --- PASS: TestOfficialDockerHubImages/067:node (17.47s)
+    --- PASS: TestOfficialDockerHubImages/068:nuxeo (98.01s)
+    --- FAIL: TestOfficialDockerHubImages/069:odoo (137.03s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                OpenERP version
+    --- PASS: TestOfficialDockerHubImages/070:openjdk (8.48s)
+    --- PASS: TestOfficialDockerHubImages/071:opensuse (18.29s)
+    --- PASS: TestOfficialDockerHubImages/072:oraclelinux (21.12s)
+    --- PASS: TestOfficialDockerHubImages/073:orientdb (39.04s)
+    --- FAIL: TestOfficialDockerHubImages/074:owncloud (119.56s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                resuming normal operations
+                apache2 -D FOREGROUND
+    --- PASS: TestOfficialDockerHubImages/075:percona (38.93s)
+    --- PASS: TestOfficialDockerHubImages/076:perl (18.69s)
+    --- PASS: TestOfficialDockerHubImages/077:photon (19.27s)
+    --- FAIL: TestOfficialDockerHubImages/078:piwik (125.71s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                ready to handle connections
+                fpm is running
+    --- PASS: TestOfficialDockerHubImages/079:php-zendserver (149.34s)
+    --- PASS: TestOfficialDockerHubImages/080:php (19.95s)
+    --- FAIL: TestOfficialDockerHubImages/081:postgres (116.97s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                database system is ready to accept connections
+    --- PASS: TestOfficialDockerHubImages/082:pypy (17.54s)
+    --- PASS: TestOfficialDockerHubImages/083:python (8.18s)
+    --- PASS: TestOfficialDockerHubImages/084:r-base (49.50s)
+    --- PASS: TestOfficialDockerHubImages/085:rabbitmq (40.53s)
+    --- PASS: TestOfficialDockerHubImages/086:rakudo-star (15.68s)
+    --- PASS: TestOfficialDockerHubImages/087:redis (19.70s)
+    --- PASS: TestOfficialDockerHubImages/088:redmine (60.82s)
+    --- PASS: TestOfficialDockerHubImages/089:registry (21.57s)
+    --- FAIL: TestOfficialDockerHubImages/090:rethinkdb (51.13s)
+        docker_compat_test.go:99: failed to run rethinkdb container: failed to pull rethinkdb from registry after 5 tries
+    --- SKIP: TestOfficialDockerHubImages/091:rocket.chat (0.00s)
+        docker_compat_test.go:94: skipping rocket.chat: rocket.chat requires a running mongo container
+    --- PASS: TestOfficialDockerHubImages/092:ros (55.63s)
+    --- PASS: TestOfficialDockerHubImages/093:ruby (34.94s)
+    --- SKIP: TestOfficialDockerHubImages/094:sentry (0.00s)
+        docker_compat_test.go:94: skipping sentry: sentry requires a redis container
+    --- FAIL: TestOfficialDockerHubImages/095:solr (125.77s)
+        docker_compat_test.go:99: failed to find these success logs after waiting 1m30s:
+                Starting Solr on port
+    --- PASS: TestOfficialDockerHubImages/096:sonarqube (73.77s)
+    --- PASS: TestOfficialDockerHubImages/097:sourcemage (56.42s)
+    --- SKIP: TestOfficialDockerHubImages/098:telegraf (0.00s)
+        docker_compat_test.go:94: skipping telegraf: telegraf requires a running influxdb container
+    --- PASS: TestOfficialDockerHubImages/099:thrift (15.46s)
+    --- PASS: TestOfficialDockerHubImages/100:tomcat (35.05s)
+    --- PASS: TestOfficialDockerHubImages/101:tomee (19.62s)
+    --- PASS: TestOfficialDockerHubImages/102:ubuntu (7.76s)
+    --- PASS: TestOfficialDockerHubImages/103:vault (18.66s)
+    --- PASS: TestOfficialDockerHubImages/104:websphere-liberty (56.50s)
+    --- SKIP: TestOfficialDockerHubImages/105:wordpress (0.00s)
+        docker_compat_test.go:94: skipping wordpress: mysql requires a mysql database
+FAIL
+exit status 1
+FAIL    github.com/apcera/docker-compat 2866.459s

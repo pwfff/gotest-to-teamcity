@@ -1,0 +1,136 @@
+=== RUN   TestBashCompletions
+--- PASS: TestBashCompletions (0.85s)
+=== RUN   TestBashCompletionHiddenFlag
+--- PASS: TestBashCompletionHiddenFlag (0.00s)
+=== RUN   TestBashCompletionDeprecatedFlag
+--- PASS: TestBashCompletionDeprecatedFlag (0.00s)
+=== RUN   TestSingleCommand
+--- PASS: TestSingleCommand (0.00s)
+=== RUN   TestChildCommand
+--- PASS: TestChildCommand (0.00s)
+=== RUN   TestCommandAlias
+--- PASS: TestCommandAlias (0.00s)
+=== RUN   TestPrefixMatching
+--- PASS: TestPrefixMatching (0.00s)
+=== RUN   TestNoPrefixMatching
+--- PASS: TestNoPrefixMatching (0.00s)
+=== RUN   TestAliasPrefixMatching
+--- PASS: TestAliasPrefixMatching (0.00s)
+=== RUN   TestChildSameName
+--- PASS: TestChildSameName (0.00s)
+=== RUN   TestGrandChildSameName
+--- PASS: TestGrandChildSameName (0.00s)
+=== RUN   TestUsage
+--- PASS: TestUsage (0.00s)
+=== RUN   TestFlagLong
+--- PASS: TestFlagLong (0.00s)
+=== RUN   TestFlagShort
+--- PASS: TestFlagShort (0.00s)
+=== RUN   TestChildCommandFlags
+--- PASS: TestChildCommandFlags (0.00s)
+=== RUN   TestTrailingCommandFlags
+--- PASS: TestTrailingCommandFlags (0.00s)
+=== RUN   TestInvalidSubcommandFlags
+--- PASS: TestInvalidSubcommandFlags (0.00s)
+=== RUN   TestSubcommandExecuteC
+--- PASS: TestSubcommandExecuteC (0.00s)
+=== RUN   TestSubcommandArgEvaluation
+--- PASS: TestSubcommandArgEvaluation (0.00s)
+=== RUN   TestPersistentFlags
+--- PASS: TestPersistentFlags (0.00s)
+=== RUN   TestHelpCommand
+--- PASS: TestHelpCommand (0.00s)
+=== RUN   TestChildCommandHelp
+--- PASS: TestChildCommandHelp (0.00s)
+=== RUN   TestNonRunChildHelp
+--- PASS: TestNonRunChildHelp (0.00s)
+=== RUN   TestRunnableRootCommand
+--- PASS: TestRunnableRootCommand (0.00s)
+=== RUN   TestVisitParents
+--- PASS: TestVisitParents (0.00s)
+=== RUN   TestRunnableRootCommandNilInput
+--- PASS: TestRunnableRootCommandNilInput (0.00s)
+=== RUN   TestRunnableRootCommandEmptyInput
+--- PASS: TestRunnableRootCommandEmptyInput (0.00s)
+=== RUN   TestInvalidSubcommandWhenArgsAllowed
+--- PASS: TestInvalidSubcommandWhenArgsAllowed (0.00s)
+=== RUN   TestRootFlags
+--- PASS: TestRootFlags (0.00s)
+=== RUN   TestRootHelp
+--- PASS: TestRootHelp (0.00s)
+=== RUN   TestFlagAccess
+--- PASS: TestFlagAccess (0.00s)
+=== RUN   TestNoNRunnableRootCommandNilInput
+--- PASS: TestNoNRunnableRootCommandNilInput (0.00s)
+=== RUN   TestRootNoCommandHelp
+--- PASS: TestRootNoCommandHelp (0.00s)
+=== RUN   TestRootUnknownCommand
+--- PASS: TestRootUnknownCommand (0.00s)
+=== RUN   TestRootUnknownCommandSilenced
+--- PASS: TestRootUnknownCommandSilenced (0.00s)
+=== RUN   TestRootSuggestions
+--- PASS: TestRootSuggestions (0.00s)
+=== RUN   TestFlagsBeforeCommand
+--- PASS: TestFlagsBeforeCommand (0.00s)
+=== RUN   TestRemoveCommand
+--- PASS: TestRemoveCommand (0.00s)
+=== RUN   TestCommandWithoutSubcommands
+--- PASS: TestCommandWithoutSubcommands (0.00s)
+=== RUN   TestCommandWithoutSubcommandsWithArg
+--- PASS: TestCommandWithoutSubcommandsWithArg (0.00s)
+=== RUN   TestReplaceCommandWithRemove
+--- PASS: TestReplaceCommandWithRemove (0.00s)
+=== RUN   TestDeprecatedSub
+--- PASS: TestDeprecatedSub (0.00s)
+=== RUN   TestPreRun
+--- PASS: TestPreRun (0.00s)
+=== RUN   TestPeristentPreRunPropagation
+--- PASS: TestPeristentPreRunPropagation (0.00s)
+=== RUN   TestGlobalNormFuncPropagation
+--- PASS: TestGlobalNormFuncPropagation (0.00s)
+=== RUN   TestFlagOnPflagCommandLine
+--- PASS: TestFlagOnPflagCommandLine (0.00s)
+=== RUN   TestAddTemplateFunctions
+--- PASS: TestAddTemplateFunctions (0.00s)
+=== RUN   TestUsageIsNotPrintedTwice
+--- PASS: TestUsageIsNotPrintedTwice (0.00s)
+=== RUN   TestHiddenCommandExecutes
+--- PASS: TestHiddenCommandExecutes (0.00s)
+=== RUN   TestHiddenCommandIsHidden
+--- PASS: TestHiddenCommandIsHidden (0.00s)
+=== RUN   TestStripFlags
+--- FAIL: TestStripFlags (0.00s)
+    command_test.go:114: expected: [ba], got: [bar]
+=== RUN   Test_DisableFlagParsing
+--- PASS: Test_DisableFlagParsing (0.00s)
+=== RUN   TestInitHelpFlagMergesFlags
+--- PASS: TestInitHelpFlagMergesFlags (0.00s)
+=== RUN   TestCommandsAreSorted
+--- PASS: TestCommandsAreSorted (0.00s)
+=== RUN   TestEnableCommandSortingIsDisabled
+--- PASS: TestEnableCommandSortingIsDisabled (0.00s)
+=== RUN   TestFlagErrorFunc
+--- PASS: TestFlagErrorFunc (0.00s)
+FAIL
+FAIL    github.com/spf13/cobra  0.884s
+?       github.com/spf13/cobra/cobra    [no test files]
+=== RUN   TestProjectPath
+--- PASS: TestProjectPath (0.00s)
+PASS
+ok      github.com/spf13/cobra/cobra/cmd    0.012s
+=== RUN   TestGenManDoc
+--- PASS: TestGenManDoc (0.00s)
+=== RUN   TestGenManNoGenTag
+--- PASS: TestGenManNoGenTag (0.00s)
+=== RUN   TestGenManSeeAlso
+--- PASS: TestGenManSeeAlso (0.00s)
+=== RUN   TestManPrintFlagsHidesShortDeperecated
+--- PASS: TestManPrintFlagsHidesShortDeperecated (0.00s)
+=== RUN   TestGenManTree
+--- PASS: TestGenManTree (0.00s)
+=== RUN   TestGenMdDoc
+--- PASS: TestGenMdDoc (0.00s)
+=== RUN   TestGenMdNoTag
+--- PASS: TestGenMdNoTag (0.00s)
+PASS
+ok      github.com/spf13/cobra/doc  0.018s

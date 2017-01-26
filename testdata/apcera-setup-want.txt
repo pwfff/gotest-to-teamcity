@@ -1,0 +1,715 @@
+?       github.com/apcera/apcera-setup  [no test files]
+?       github.com/apcera/apcera-setup/commands [no test files]
+=== RUN   TestValidate
+--- PASS: TestValidate (0.00s)
+=== RUN   TestValidateSuspendedVMs
+Validating VM state...
+--- PASS: TestValidateSuspendedVMs (0.00s)
+=== RUN   TestImportHelper
+
+[ Importing Packages ]
+Importing 2 packages. This could take a while, check log for details...
+Importing: a
+[ERROR] Error importing package "a":
+Importing: b
+[ERROR] Error importing package "b":
+
+[ Importing Packages ]
+Importing 2 packages. This could take a while, check log for details...
+Importing: a
+Importing: b
+--- PASS: TestImportHelper (0.00s)
+=== RUN   TestToBashList
+--- PASS: TestToBashList (0.00s)
+=== RUN   TestProviderPkgName
+--- PASS: TestProviderPkgName (0.00s)
+=== RUN   TestFindPkgPrefix
+--- PASS: TestFindPkgPrefix (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/bootstrap   0.029s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/bootstrap']
+##teamcity[testStarted name='TestValidate']
+##teamcity[testFinished name='TestValidate' duration='0']
+##teamcity[testStarted name='TestValidateSuspendedVMs']
+##teamcity[testFinished name='TestValidateSuspendedVMs' duration='0']
+##teamcity[testStarted name='TestImportHelper']
+##teamcity[testFinished name='TestImportHelper' duration='0']
+##teamcity[testStarted name='TestToBashList']
+##teamcity[testFinished name='TestToBashList' duration='0']
+##teamcity[testStarted name='TestProviderPkgName']
+##teamcity[testFinished name='TestProviderPkgName' duration='0']
+##teamcity[testStarted name='TestFindPkgPrefix']
+##teamcity[testFinished name='TestFindPkgPrefix' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/bootstrap']
+=== RUN   TestValidate
+--- PASS: TestValidate (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/config  0.031s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/config']
+##teamcity[testStarted name='TestValidate']
+##teamcity[testFinished name='TestValidate' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/config']
+=== RUN   TestValidate
+--- PASS: TestValidate (0.00s)
+=== RUN   TestCreate
+--- PASS: TestCreate (0.00s)
+=== RUN   TestConfigure
+--- PASS: TestConfigure (0.00s)
+=== RUN   TestSetupMockProvider
+--- PASS: TestSetupMockProvider (0.00s)
+=== RUN   TestSetupNameCounts
+--- PASS: TestSetupNameCounts (0.00s)
+=== RUN   TestAddedVMsConfigured
+
+[ Preparing Templates ]
+No templates are required for this provider.
+
+[ Creating VMs ]
+Provisioning VM 1 of 2: "-apcera-ce-im-1-1688176804"...
+Provisioning VM 2 of 2: "-apcera-ce-im-2-1688176804"...
+Configuring VM 2 of 2: "-apcera-ce-im-2-1688176804"...
+Configuring VM 1 of 2: "-apcera-ce-im-1-1688176804"...
+--- PASS: TestAddedVMsConfigured (0.40s)
+=== RUN   TestAddedVMs_ErrorsDelete
+
+[ Preparing Templates ]
+No templates are required for this provider.
+
+[ Creating VMs ]
+Provisioning VM 1 of 2: "-apcera-ce-im-2-1688176804"...
+Provisioning VM 2 of 2: "-apcera-ce-im-3-1688176804"...
+Configuring VM 2 of 2: "-apcera-ce-im-3-1688176804"...
+Configuring VM 1 of 2: "-apcera-ce-im-2-1688176804"...
+--- PASS: TestAddedVMs_ErrorsDelete (0.00s)
+    create_test.go:247: VM was destroyed correctly
+    create_test.go:247: VM was destroyed correctly
+=== RUN   TestAddedVMs_ErrorsRemove
+
+[ Preparing Templates ]
+No templates are required for this provider.
+
+[ Creating VMs ]
+Provisioning VM 1 of 2: "-apcera-ce-im-2-1688176804"...
+Provisioning VM 2 of 2: "-apcera-ce-im-3-1688176804"...
+Configuring VM 2 of 2: "-apcera-ce-im-3-1688176804"...
+Configuring VM 1 of 2: "-apcera-ce-im-2-1688176804"...
+--- PASS: TestAddedVMs_ErrorsRemove (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/create  0.433s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/create']
+##teamcity[testStarted name='TestValidate']
+##teamcity[testFinished name='TestValidate' duration='0']
+##teamcity[testStarted name='TestCreate']
+##teamcity[testFinished name='TestCreate' duration='0']
+##teamcity[testStarted name='TestConfigure']
+##teamcity[testFinished name='TestConfigure' duration='0']
+##teamcity[testStarted name='TestSetupMockProvider']
+##teamcity[testFinished name='TestSetupMockProvider' duration='0']
+##teamcity[testStarted name='TestSetupNameCounts']
+##teamcity[testFinished name='TestSetupNameCounts' duration='0']
+##teamcity[testStarted name='TestAddedVMsConfigured']
+##teamcity[testFinished name='TestAddedVMsConfigured' duration='400']
+##teamcity[testStarted name='TestAddedVMs_ErrorsDelete']
+##teamcity[testFinished name='TestAddedVMs_ErrorsDelete' duration='0']
+##teamcity[testStarted name='TestAddedVMs_ErrorsRemove']
+##teamcity[testFinished name='TestAddedVMs_ErrorsRemove' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/create']
+=== RUN   TestValidate
+--- PASS: TestValidate (0.00s)
+=== RUN   TestValidateFlag
+--- PASS: TestValidateFlag (0.00s)
+=== RUN   TestValidateEnvInsertion
+Downloading "thing.tar.gz" to "thing.tar.gz"...
+--- PASS: TestValidateEnvInsertion (0.00s)
+=== RUN   TestValidateSuspendedVMs
+Validating VM state...
+--- PASS: TestValidateSuspendedVMs (0.00s)
+=== RUN   TestCreateClusterConf
+Generating IM IPs
+--- PASS: TestCreateClusterConf (0.00s)
+=== RUN   TestGetAdminNameList
+--- PASS: TestGetAdminNameList (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/deploy  0.034s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/deploy']
+##teamcity[testStarted name='TestValidate']
+##teamcity[testFinished name='TestValidate' duration='0']
+##teamcity[testStarted name='TestValidateFlag']
+##teamcity[testFinished name='TestValidateFlag' duration='0']
+##teamcity[testStarted name='TestValidateEnvInsertion']
+##teamcity[testFinished name='TestValidateEnvInsertion' duration='0']
+##teamcity[testStarted name='TestValidateSuspendedVMs']
+##teamcity[testFinished name='TestValidateSuspendedVMs' duration='0']
+##teamcity[testStarted name='TestCreateClusterConf']
+##teamcity[testFinished name='TestCreateClusterConf' duration='0']
+##teamcity[testStarted name='TestGetAdminNameList']
+##teamcity[testFinished name='TestGetAdminNameList' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/deploy']
+=== RUN   TestValidate
+--- PASS: TestValidate (0.00s)
+=== RUN   TestDestroy
+--- PASS: TestDestroy (0.00s)
+=== RUN   TestDestroy_Fail
+--- PASS: TestDestroy_Fail (0.00s)
+=== RUN   TestValidateSuspendedVMs
+[ Apcera Setup - Destroy ]
+Validating VM state...
+Machines must be powered on to destroy them...
+
+[ Apcera Setup - Resume ]
+Resuming cluster VMs...
+
+Destroying cluster VMs...
+[ Apcera Setup - Destroy ]
+Validating VM state...
+Destroying cluster VMs...
+[ Apcera Setup - Destroy ]
+Validating VM state...
+Machines must be powered on to destroy them...
+
+[ Apcera Setup - Resume ]
+Resuming cluster VMs...
+
+Destroying cluster VMs...
+[ Apcera Setup - Destroy ]
+Validating VM state...
+Machines must be powered on to destroy them...
+
+[ Apcera Setup - Resume ]
+Resuming cluster VMs...
+
+Destroying cluster VMs...
+--- PASS: TestValidateSuspendedVMs (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/destroy 0.044s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/destroy']
+##teamcity[testStarted name='TestValidate']
+##teamcity[testFinished name='TestValidate' duration='0']
+##teamcity[testStarted name='TestDestroy']
+##teamcity[testFinished name='TestDestroy' duration='0']
+##teamcity[testStarted name='TestDestroy_Fail']
+##teamcity[testFinished name='TestDestroy_Fail' duration='0']
+##teamcity[testStarted name='TestValidateSuspendedVMs']
+##teamcity[testFinished name='TestValidateSuspendedVMs' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/destroy']
+=== RUN   TestValidate
+--- PASS: TestValidate (0.00s)
+=== RUN   TestHalt
+--- PASS: TestHalt (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/halt    0.035s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/halt']
+##teamcity[testStarted name='TestValidate']
+##teamcity[testFinished name='TestValidate' duration='0']
+##teamcity[testStarted name='TestHalt']
+##teamcity[testFinished name='TestHalt' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/halt']
+=== RUN   TestClusterInfoDefaults
+--- PASS: TestClusterInfoDefaults (0.00s)
+=== RUN   TestClusterInfo
+--- PASS: TestClusterInfo (0.00s)
+=== RUN   TestHTTPSClusterInfo
+--- PASS: TestHTTPSClusterInfo (0.00s)
+=== RUN   TestMonitoringClusterInfo
+--- PASS: TestMonitoringClusterInfo (0.00s)
+=== RUN   TestClusterInfo_BeforeDeploy
+--- PASS: TestClusterInfo_BeforeDeploy (0.00s)
+=== RUN   TestClusterInfoJson
+--- PASS: TestClusterInfoJson (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/info    0.036s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/info']
+##teamcity[testStarted name='TestClusterInfoDefaults']
+##teamcity[testFinished name='TestClusterInfoDefaults' duration='0']
+##teamcity[testStarted name='TestClusterInfo']
+##teamcity[testFinished name='TestClusterInfo' duration='0']
+##teamcity[testStarted name='TestHTTPSClusterInfo']
+##teamcity[testFinished name='TestHTTPSClusterInfo' duration='0']
+##teamcity[testStarted name='TestMonitoringClusterInfo']
+##teamcity[testFinished name='TestMonitoringClusterInfo' duration='0']
+##teamcity[testStarted name='TestClusterInfo_BeforeDeploy']
+##teamcity[testFinished name='TestClusterInfo_BeforeDeploy' duration='0']
+##teamcity[testStarted name='TestClusterInfoJson']
+##teamcity[testFinished name='TestClusterInfoJson' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/info']
+=== RUN   TestInstall
+
+
+
+
+
+
+
+
+
+
+--- PASS: TestInstall (0.01s)
+=== RUN   TestInstall_Failure
+
+[ERROR] Failed to install cluster: Forced error for testing purposes
+
+
+[ERROR] Failed to install cluster: Forced error for testing purposes
+
+
+
+[ERROR] Cluster successfully installed but failed to bootstrap cluster: Forced error for testing purposes.
+
+[ERROR] Cluster successfully installed but failed to query cluster state: Forced error for testing purposes.
+
+
+
+
+[ERROR] Cluster successfully installed but failed to query cluster state: Forced error for testing purposes.
+
+
+
+
+
+[ERROR] Cluster successfully installed but failed to query cluster state: Forced error for testing purposes.
+
+
+
+
+
+
+
+
+
+
+--- PASS: TestInstall_Failure (0.01s)
+=== RUN   TestInstall_LogsFailure
+
+
+
+
+
+
+
+
+
+
+[ERROR] Cluster successfully installed but failed to query cluster state: Forced error for testing purposes.
+
+
+
+
+[ERROR] Cluster successfully installed but failed to query cluster state: Forced error for testing purposes.
+
+
+
+[ERROR] Cluster successfully installed but failed to bootstrap cluster: Forced error for testing purposes.
+
+[ERROR] Cluster successfully installed but failed to query cluster state: Forced error for testing purposes.
+
+
+[ERROR] Failed to install cluster: Forced error for testing purposes
+
+[ERROR] Failed to install cluster: Forced error for testing purposes
+--- PASS: TestInstall_LogsFailure (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/install 0.055s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/install']
+##teamcity[testStarted name='TestInstall']
+##teamcity[testFinished name='TestInstall' duration='10']
+##teamcity[testStarted name='TestInstall_Failure']
+##teamcity[testFinished name='TestInstall_Failure' duration='10']
+##teamcity[testStarted name='TestInstall_LogsFailure']
+##teamcity[testFinished name='TestInstall_LogsFailure' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/install']
+=== RUN   TestDownloadFiles
+SSH connection failed: no valid IPv4 addresses for VM
+--- PASS: TestDownloadFiles (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/logs    0.034s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/logs']
+##teamcity[testStarted name='TestDownloadFiles']
+##teamcity[testFinished name='TestDownloadFiles' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/logs']
+?       github.com/apcera/apcera-setup/commands/reboot  [no test files]
+=== RUN   TestValidate
+Validating VM state...
+Validating VM state...
+Validating VM state...
+Validating VM state...
+Validating VM state...
+--- PASS: TestValidate (0.00s)
+=== RUN   TestScaleUpCreate
+
+[ Preparing Templates ]
+No templates are required for this provider.
+
+[ Creating VMs ]
+Provisioning VM 1 of 1: "foo-apcera-ce-im-2-1278078258"...
+Configuring VM 1 of 1: "foo-apcera-ce-im-2-1278078258"...
+--- PASS: TestScaleUpCreate (0.00s)
+=== RUN   TestScale
+[ERROR] The target number of IMs already exists.
+
+[ Preparing Templates ]
+No templates are required for this provider.
+
+[ Creating VMs ]
+Provisioning VM 1 of 2: "foo-apcera-ce-im-2-1278078258"...
+Provisioning VM 2 of 2: "foo-apcera-ce-im-3-1278078258"...
+Configuring VM 2 of 2: "foo-apcera-ce-im-3-1278078258"...
+Configuring VM 1 of 2: "foo-apcera-ce-im-2-1278078258"...
+
+[ Preparing Templates ]
+No templates are required for this provider.
+
+[ Creating VMs ]
+Provisioning VM 1 of 2: "foo-apcera-ce-im-2-1278078258"...
+Provisioning VM 2 of 2: "foo-apcera-ce-im-3-1278078258"...
+Configuring VM 2 of 2: "foo-apcera-ce-im-3-1278078258"...
+Configuring VM 1 of 2: "foo-apcera-ce-im-2-1278078258"...
+
+[ Preparing Templates ]
+No templates are required for this provider.
+
+[ Creating VMs ]
+Provisioning VM 1 of 2: "foo-apcera-ce-im-2-1278078258"...
+Provisioning VM 2 of 2: "foo-apcera-ce-im-3-1278078258"...
+Configuring VM 2 of 2: "foo-apcera-ce-im-3-1278078258"...
+Configuring VM 1 of 2: "foo-apcera-ce-im-2-1278078258"...
+
+[ Destroying VMs ]
+Destroying VM 2 of 2: "6173155142633143936"...
+Destroying VM 1 of 2: "6173155142633143936"...
+
+[ Destroying VMs ]
+Destroying VM 2 of 2: "7492106549968349006"...
+Destroying VM 1 of 2: "7492106549968349006"...
+
+[ Destroying VMs ]
+Destroying VM 2 of 2: "2799481307177009357"...
+Destroying VM 1 of 2: "2799481307177009357"...
+--- PASS: TestScale (0.00s)
+=== RUN   TestScaleDownMultipleTimes
+
+[ Destroying VMs ]
+Destroying VM 1 of 1: "1255637451675312858"...
+
+[ Destroying VMs ]
+Destroying VM 1 of 1: "6604962061612334092"...
+--- PASS: TestScaleDownMultipleTimes (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/rescale 0.581s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/rescale']
+##teamcity[testStarted name='TestValidate']
+##teamcity[testFinished name='TestValidate' duration='0']
+##teamcity[testStarted name='TestScaleUpCreate']
+##teamcity[testFinished name='TestScaleUpCreate' duration='0']
+##teamcity[testStarted name='TestScale']
+##teamcity[testFinished name='TestScale' duration='0']
+##teamcity[testStarted name='TestScaleDownMultipleTimes']
+##teamcity[testFinished name='TestScaleDownMultipleTimes' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/rescale']
+=== RUN   TestResumeVMs
+--- PASS: TestResumeVMs (0.00s)
+=== RUN   TestValidate
+--- PASS: TestValidate (0.00s)
+=== RUN   TestResumeVMs_StateBehavior
+--- PASS: TestResumeVMs_StateBehavior (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/resume  0.031s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/resume']
+##teamcity[testStarted name='TestResumeVMs']
+##teamcity[testFinished name='TestResumeVMs' duration='0']
+##teamcity[testStarted name='TestValidate']
+##teamcity[testFinished name='TestValidate' duration='0']
+##teamcity[testStarted name='TestResumeVMs_StateBehavior']
+##teamcity[testFinished name='TestResumeVMs_StateBehavior' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/resume']
+?       github.com/apcera/apcera-setup/commands/ssh [no test files]
+=== RUN   TestClusterStatus
+--- PASS: TestClusterStatus (0.00s)
+=== RUN   TestClusterStatusNoProvider
+--- PASS: TestClusterStatusNoProvider (0.00s)
+=== RUN   TestMachineStatus
+[WARNING] Could not retrieve machine state: operation not implemented
+[ Machine Status ]
++----------+--------------------------------+------------------+---------+
+| Role     | Name                           | IP Address       | Status  |
++----------+--------------------------------+------------------+---------+
+| Central  | abc-apcera-setup-orchestrator  | N/A              |         |
+| Central2 | abc-apcera-setup-orchestrator2 | 1.1.1.1, 2.2.2.2 | running |
++----------+--------------------------------+------------------+---------+
+
+[{"role":"Central","name":"abc-apcera-setup-orchestrator","ips":[],"status":""},{"role":"Central2","name":"abc-apcera-setup-orchestrator2","ips":["1.1.1.1","2.2.2.2"],"status":"running"}]
+--- PASS: TestMachineStatus (0.00s)
+=== RUN   TestMachineStatusNoVMs
+--- PASS: TestMachineStatusNoVMs (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/commands/status  0.038s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/commands/status']
+##teamcity[testStarted name='TestClusterStatus']
+##teamcity[testFinished name='TestClusterStatus' duration='0']
+##teamcity[testStarted name='TestClusterStatusNoProvider']
+##teamcity[testFinished name='TestClusterStatusNoProvider' duration='0']
+##teamcity[testStarted name='TestMachineStatus']
+##teamcity[testFinished name='TestMachineStatus' duration='0']
+##teamcity[testStarted name='TestMachineStatusNoVMs']
+##teamcity[testFinished name='TestMachineStatusNoVMs' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/commands/status']
+=== RUN   TestUbuntuConfigurations
+--- PASS: TestUbuntuConfigurations (0.00s)
+=== RUN   TestCentosConfigurations
+--- PASS: TestCentosConfigurations (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/config   0.020s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/config']
+##teamcity[testStarted name='TestUbuntuConfigurations']
+##teamcity[testFinished name='TestUbuntuConfigurations' duration='0']
+##teamcity[testStarted name='TestCentosConfigurations']
+##teamcity[testFinished name='TestCentosConfigurations' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/config']
+?       github.com/apcera/apcera-setup/config/templates [no test files]
+=== RUN   TestUrl
+--- PASS: TestUrl (0.00s)
+=== RUN   TestValidateName
+--- PASS: TestValidateName (0.00s)
+=== RUN   TestExists
+--- PASS: TestExists (0.00s)
+=== RUN   TestExistsFailure
+--- PASS: TestExistsFailure (0.00s)
+=== RUN   TestExistsFailures
+--- PASS: TestExistsFailures (0.00s)
+=== RUN   TestDoesNotExist
+--- PASS: TestDoesNotExist (0.00s)
+=== RUN   TestCreate
+DNS service registered "Verification-Test.apcera-platform.io"
+--- PASS: TestCreate (0.00s)
+=== RUN   TestCreateWithMonitoring
+DNS service registered "Verification-Test.apcera-platform.io"
+--- PASS: TestCreateWithMonitoring (0.00s)
+=== RUN   TestCreateMultiIp
+DNS service registered "Verification-Test.apcera-platform.io"
+--- PASS: TestCreateMultiIp (0.00s)
+=== RUN   TestCreateMultiIpWithMonitoring
+DNS service registered "Verification-Test.apcera-platform.io"
+--- PASS: TestCreateMultiIpWithMonitoring (0.00s)
+=== RUN   TestCreateFailure
+--- PASS: TestCreateFailure (0.00s)
+=== RUN   TestCreateFailures
+--- PASS: TestCreateFailures (0.00s)
+=== RUN   TestUpdate
+--- PASS: TestUpdate (0.00s)
+=== RUN   TestUpdateFailure
+--- PASS: TestUpdateFailure (0.00s)
+=== RUN   TestUpdateFailures
+--- PASS: TestUpdateFailures (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/dnsapi   0.071s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/dnsapi']
+##teamcity[testStarted name='TestUrl']
+##teamcity[testFinished name='TestUrl' duration='0']
+##teamcity[testStarted name='TestValidateName']
+##teamcity[testFinished name='TestValidateName' duration='0']
+##teamcity[testStarted name='TestExists']
+##teamcity[testFinished name='TestExists' duration='0']
+##teamcity[testStarted name='TestExistsFailure']
+##teamcity[testFinished name='TestExistsFailure' duration='0']
+##teamcity[testStarted name='TestExistsFailures']
+##teamcity[testFinished name='TestExistsFailures' duration='0']
+##teamcity[testStarted name='TestDoesNotExist']
+##teamcity[testFinished name='TestDoesNotExist' duration='0']
+##teamcity[testStarted name='TestCreate']
+##teamcity[testFinished name='TestCreate' duration='0']
+##teamcity[testStarted name='TestCreateWithMonitoring']
+##teamcity[testFinished name='TestCreateWithMonitoring' duration='0']
+##teamcity[testStarted name='TestCreateMultiIp']
+##teamcity[testFinished name='TestCreateMultiIp' duration='0']
+##teamcity[testStarted name='TestCreateMultiIpWithMonitoring']
+##teamcity[testFinished name='TestCreateMultiIpWithMonitoring' duration='0']
+##teamcity[testStarted name='TestCreateFailure']
+##teamcity[testFinished name='TestCreateFailure' duration='0']
+##teamcity[testStarted name='TestCreateFailures']
+##teamcity[testFinished name='TestCreateFailures' duration='0']
+##teamcity[testStarted name='TestUpdate']
+##teamcity[testFinished name='TestUpdate' duration='0']
+##teamcity[testStarted name='TestUpdateFailure']
+##teamcity[testFinished name='TestUpdateFailure' duration='0']
+##teamcity[testStarted name='TestUpdateFailures']
+##teamcity[testFinished name='TestUpdateFailures' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/dnsapi']
+?       github.com/apcera/apcera-setup/i18n [no test files]
+?       github.com/apcera/apcera-setup/logging  [no test files]
+=== RUN   TestNew
+--- PASS: TestNew (0.01s)
+=== RUN   TestNewLen
+--- PASS: TestNewLen (0.00s)
+=== RUN   TestNewLenChars
+--- PASS: TestNewLenChars (0.00s)
+=== RUN   TestNewLenCharsMaxLength
+--- PASS: TestNewLenCharsMaxLength (0.00s)
+=== RUN   TestBias
+--- PASS: TestBias (0.29s)
+PASS
+ok      github.com/apcera/apcera-setup/passgen  0.309s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/passgen']
+##teamcity[testStarted name='TestNew']
+##teamcity[testFinished name='TestNew' duration='10']
+##teamcity[testStarted name='TestNewLen']
+##teamcity[testFinished name='TestNewLen' duration='0']
+##teamcity[testStarted name='TestNewLenChars']
+##teamcity[testFinished name='TestNewLenChars' duration='0']
+##teamcity[testStarted name='TestNewLenCharsMaxLength']
+##teamcity[testFinished name='TestNewLenCharsMaxLength' duration='0']
+##teamcity[testStarted name='TestBias']
+##teamcity[testFinished name='TestBias' duration='290']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/passgen']
+?       github.com/apcera/apcera-setup/release  [no test files]
+?       github.com/apcera/apcera-setup/setup/centos [no test files]
+?       github.com/apcera/apcera-setup/setup/cloudinit  [no test files]
+=== RUN   TestReadOrchestratorCli
+--- PASS: TestReadOrchestratorCli (0.01s)
+=== RUN   TestReadOrchestratorAgent
+--- PASS: TestReadOrchestratorAgent (0.01s)
+=== RUN   TestReadDummyItem
+--- PASS: TestReadDummyItem (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/setup/orchestrator   0.036s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/setup/orchestrator']
+##teamcity[testStarted name='TestReadOrchestratorCli']
+##teamcity[testFinished name='TestReadOrchestratorCli' duration='10']
+##teamcity[testStarted name='TestReadOrchestratorAgent']
+##teamcity[testFinished name='TestReadOrchestratorAgent' duration='10']
+##teamcity[testStarted name='TestReadDummyItem']
+##teamcity[testFinished name='TestReadDummyItem' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/setup/orchestrator']
+?       github.com/apcera/apcera-setup/setup/ubuntu [no test files]
+?       github.com/apcera/apcera-setup/signals  [no test files]
+=== RUN   TestState
+--- PASS: TestState (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/state/cluster    0.020s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/state/cluster']
+##teamcity[testStarted name='TestState']
+##teamcity[testFinished name='TestState' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/state/cluster']
+?       github.com/apcera/apcera-setup/state/setup  [no test files]
+=== RUN   TestClusterMarshal
+--- PASS: TestClusterMarshal (0.00s)
+=== RUN   TestReadWriteConfig
+--- PASS: TestReadWriteConfig (0.00s)
+=== RUN   TestValidateAddress
+--- PASS: TestValidateAddress (0.00s)
+=== RUN   TestValidateIP
+--- PASS: TestValidateIP (0.00s)
+=== RUN   TestVMMarshal
+--- PASS: TestVMMarshal (0.00s)
+=== RUN   TestIPv4Only
+--- PASS: TestIPv4Only (0.00s)
+=== RUN   TestIPCache
+--- PASS: TestIPCache (0.00s)
+=== RUN   TestDefaultIPValid
+--- PASS: TestDefaultIPValid (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/types    0.029s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/types']
+##teamcity[testStarted name='TestClusterMarshal']
+##teamcity[testFinished name='TestClusterMarshal' duration='0']
+##teamcity[testStarted name='TestReadWriteConfig']
+##teamcity[testFinished name='TestReadWriteConfig' duration='0']
+##teamcity[testStarted name='TestValidateAddress']
+##teamcity[testFinished name='TestValidateAddress' duration='0']
+##teamcity[testStarted name='TestValidateIP']
+##teamcity[testFinished name='TestValidateIP' duration='0']
+##teamcity[testStarted name='TestVMMarshal']
+##teamcity[testFinished name='TestVMMarshal' duration='0']
+##teamcity[testStarted name='TestIPv4Only']
+##teamcity[testFinished name='TestIPv4Only' duration='0']
+##teamcity[testStarted name='TestIPCache']
+##teamcity[testFinished name='TestIPCache' duration='0']
+##teamcity[testStarted name='TestDefaultIPValid']
+##teamcity[testFinished name='TestDefaultIPValid' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/types']
+?       github.com/apcera/apcera-setup/types/providers  [no test files]
+?       github.com/apcera/apcera-setup/update   [no test files]
+=== RUN   TestDownload_Redownload
+Downloading "351550888" to "/var/folders/d6/y64jyv2x3gn09b6ss4w0gwj80000gn/T/351550888"...
+Downloaded 100.0% (0MiB of 0MiB)
+Downloading "004172058" to "/var/folders/d6/y64jyv2x3gn09b6ss4w0gwj80000gn/T/004172058"...
+Downloaded 100.0% (0MiB of 0MiB)
+Downloading "183480156" to "/var/folders/d6/y64jyv2x3gn09b6ss4w0gwj80000gn/T/183480156"...
+Downloaded 100.0% (0MiB of 0MiB)
+file "922552046" already exists but it does not match the expected file information. Redownloading...
+Downloading "922552046" to "/var/folders/d6/y64jyv2x3gn09b6ss4w0gwj80000gn/T/922552046"...
+Downloaded 100.0% (0MiB of 0MiB)
+file already exists, skipping download of "862778448"
+Downloading "713897839" to "/var/folders/d6/y64jyv2x3gn09b6ss4w0gwj80000gn/T/713897839"...
+Downloaded 100.0% (0MiB of 0MiB)
+--- PASS: TestDownload_Redownload (0.03s)
+    download_test.go:38: {localContents: remoteContents:newDataA redownload:true}
+    download_test.go:38: {localContents: remoteContents:newDataA redownload:true}
+    download_test.go:38: {localContents:old remoteContents:newDataA redownload:true}
+    download_test.go:38: {localContents:old remoteContents:newDataA redownload:false}
+    download_test.go:38: {localContents:newDataA remoteContents:newDataB redownload:false}
+    download_test.go:38: {localContents:newDataA remoteContents:newDataB redownload:true}
+=== RUN   TestProgressReaderUpdating
+Downloaded 100.0% (0MiB of 0MiB)
+--- PASS: TestProgressReaderUpdating (0.00s)
+=== RUN   TestMinimumSubnet
+--- PASS: TestMinimumSubnet (0.00s)
+=== RUN   TestGetRandomName
+--- PASS: TestGetRandomName (0.00s)
+=== RUN   TestSortVersion
+--- PASS: TestSortVersion (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/util 0.045s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/util']
+##teamcity[testStarted name='TestDownload_Redownload']
+##teamcity[testFinished name='TestDownload_Redownload' duration='30']
+##teamcity[testStarted name='TestProgressReaderUpdating']
+##teamcity[testFinished name='TestProgressReaderUpdating' duration='0']
+##teamcity[testStarted name='TestMinimumSubnet']
+##teamcity[testFinished name='TestMinimumSubnet' duration='0']
+##teamcity[testStarted name='TestGetRandomName']
+##teamcity[testFinished name='TestGetRandomName' duration='0']
+##teamcity[testStarted name='TestSortVersion']
+##teamcity[testFinished name='TestSortVersion' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/util']
+?       github.com/apcera/apcera-setup/util/apc [no test files]
+?       github.com/apcera/apcera-setup/util/apc/mocks   [no test files]
+=== RUN   TestNewDefiner
+--- PASS: TestNewDefiner (0.00s)
+=== RUN   TestDefineAllMocks_NoOverwrite
+--- PASS: TestDefineAllMocks_NoOverwrite (0.00s)
+=== RUN   TestMixedMocks
+--- PASS: TestMixedMocks (0.00s)
+=== RUN   TestNewMockSSHTracker
+--- PASS: TestNewMockSSHTracker (0.00s)
+=== RUN   TestNewStater
+--- PASS: TestNewStater (0.00s)
+=== RUN   TestSetState
+--- PASS: TestSetState (0.00s)
+=== RUN   TestNewMockTracker
+--- PASS: TestNewMockTracker (0.00s)
+=== RUN   TestNewTracker_DontTrackGets
+--- PASS: TestNewTracker_DontTrackGets (0.00s)
+=== RUN   TestClearCommands
+--- PASS: TestClearCommands (0.00s)
+PASS
+ok      github.com/apcera/apcera-setup/util/mocks   0.016s
+##teamcity[testSuiteStarted name='github.com/apcera/apcera-setup/util/mocks']
+##teamcity[testStarted name='TestNewDefiner']
+##teamcity[testFinished name='TestNewDefiner' duration='0']
+##teamcity[testStarted name='TestDefineAllMocks_NoOverwrite']
+##teamcity[testFinished name='TestDefineAllMocks_NoOverwrite' duration='0']
+##teamcity[testStarted name='TestMixedMocks']
+##teamcity[testFinished name='TestMixedMocks' duration='0']
+##teamcity[testStarted name='TestNewMockSSHTracker']
+##teamcity[testFinished name='TestNewMockSSHTracker' duration='0']
+##teamcity[testStarted name='TestNewStater']
+##teamcity[testFinished name='TestNewStater' duration='0']
+##teamcity[testStarted name='TestSetState']
+##teamcity[testFinished name='TestSetState' duration='0']
+##teamcity[testStarted name='TestNewMockTracker']
+##teamcity[testFinished name='TestNewMockTracker' duration='0']
+##teamcity[testStarted name='TestNewTracker_DontTrackGets']
+##teamcity[testFinished name='TestNewTracker_DontTrackGets' duration='0']
+##teamcity[testStarted name='TestClearCommands']
+##teamcity[testFinished name='TestClearCommands' duration='0']
+##teamcity[testSuiteFinished name='github.com/apcera/apcera-setup/util/mocks']
+?       github.com/apcera/apcera-setup/util/vm  [no test files]
