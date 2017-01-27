@@ -1,8 +1,6 @@
 // Copyright 2016 Apcera Inc. All rights reserved.
 
-// FIXME: This should be a "result" subpackage, but I don't have permission to
-// make a separate gotest-to-teamcity repo, so into main it goes.
-package main
+package test
 
 import (
 	"fmt"
@@ -24,6 +22,9 @@ var replacer = strings.NewReplacer(
 	"\u2029", "|p",
 )
 
+// Result represents a printed test result from `go test`, e.g.
+//     --- FAIL: TestStripFlags (0.00s)
+//         command_test.go:114: expected: [ba], got: [bar]
 type Result struct {
 	TestName     string
 	PassFailSkip string // "PASS", "FAIL", or "SKIP"

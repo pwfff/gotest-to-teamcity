@@ -8,6 +8,8 @@ import (
 	"os"
 	"regexp"
 	"strings"
+
+	"github.com/apcera/gotest-to-teamcity/test"
 )
 
 var (
@@ -43,9 +45,9 @@ func main() {
 	stdin := bufio.NewReader(in)
 
 	var (
-		currResult   Result
-		pkgResults   []Result // all the test results for a single pkg
-		startFailMsg bool     // record subsequent lines as fail msg from previous test
+		currResult   test.Result
+		pkgResults   []test.Result // all the test results for a single pkg
+		startFailMsg bool          // record subsequent lines as fail msg from previous test
 	)
 	for {
 		line, err := stdin.ReadString('\n')
@@ -65,7 +67,7 @@ func main() {
 		if match := pkgSummaryRx.FindStringSubmatch(line); len(match) > 0 {
 			startFailMsg = false
 			pkgResults = append(pkgResults, currResult)
-			currResult = Result{}
+			currResult = test.Result{}
 
 			pkgName := match[1]
 			printPkgResults(pkgName, pkgResults)
@@ -86,7 +88,7 @@ func main() {
 			}
 
 			name, passFailSkip, duration := match[2], match[1], match[3]
-			currResult = New(name, passFailSkip, duration)
+			currResult = test.New(name, passFailSkip, duration)
 			continue
 		}
 
@@ -107,7 +109,7 @@ func skipLine(line string) bool {
 }
 
 // printPkgResults prints all the TC service messages for a package's tests.
-func printPkgResults(pkgName string, pkgResults []Result) {
+func printPkgResults(pkgName string, pkgResults []test.Result) {
 	fmt.Fprintf(out, "##teamcity[testSuiteStarted name='%s']\n", pkgName)
 	for _, result := range pkgResults {
 		fmt.Fprintln(out, result)
