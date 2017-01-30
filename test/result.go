@@ -65,7 +65,8 @@ func (result Result) String() string {
 	case "SKIP":
 		s += fmt.Sprintf("##teamcity[testIgnored name='%s']\n", result.TestName)
 	default:
-		msg := fmt.Sprintf(`PassFailSkip can only be "PASS", "FAIL", or "SKIP", not %q`, result.PassFailSkip)
+		msg := fmt.Sprintf(`PassFailSkip can only be "PASS", "FAIL", or "SKIP", not %q.`, result.PassFailSkip)
+		msg += "\nDid you forget to run go test with the -v flag?"
 		panic(msg)
 	}
 
