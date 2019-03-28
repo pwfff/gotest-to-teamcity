@@ -2,38 +2,39 @@
 package main
 
 import (
+	"bufio"
 	"bytes"
 	"fmt"
 	"io/ioutil"
 	"testing"
 )
 
-func TestOutput(t *testing.T) {
-	cases := []struct {
-		inputFile string // the file containing the output of `go test -v`
-		wantFile  string // aka the "golden" file containing the expected output
-	}{
-		{
-			"testdata/apcera-setup.txt",
-			"testdata/apcera-setup-want.txt",
-		},
-		{
-			"testdata/cobra.txt",
-			"testdata/cobra-want.txt",
-		},
-		{
-			"testdata/docker-compat.txt",
-			"testdata/docker-compat-want.txt",
-		},
-	}
+var cases = []struct {
+	inputFile string // the file containing the output of `go test -v`
+	wantFile  string // aka the "golden" file containing the expected output
+}{
+	{
+	"testdata/apcera-setup.txt",
+	"testdata/apcera-setup-want.txt",
+	},
+	{
+	"testdata/cobra.txt",
+	"testdata/cobra-want.txt",
+	},
+	{
+	"testdata/docker-compat.txt",
+	"testdata/docker-compat-want.txt",
+	},
+}
 
+func TestOutput(t *testing.T) {
 	for _, c := range cases {
 		// Open the file containing the output of `go test -v`.
 		b, err := ioutil.ReadFile(c.inputFile)
 		if err != nil {
 			t.Fatalf("failed to open input file %q: %v", c.inputFile, err)
 		}
-		in = bytes.NewReader(b) // mock stdin
+		in := bufio.NewReader(bytes.NewReader(b))
 
 		// Open the file containing the expected output.
 		want, err := ioutil.ReadFile(c.wantFile)
@@ -45,9 +46,8 @@ func TestOutput(t *testing.T) {
 		buf := &bytes.Buffer{}
 		const arbitrarilyLargeBufSize = 65535 // saves allocations
 		buf.Grow(arbitrarilyLargeBufSize)
-		out = buf // capture the output of main()
 
-		main()
+		process(in, buf)
 
 		got := bytes.TrimSpace(buf.Bytes())
 		err = compare(got, want)

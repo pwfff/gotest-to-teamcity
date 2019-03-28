@@ -3,9 +3,11 @@ package main
 
 import (
 	"bufio"
+	"flag"
 	"fmt"
 	"io"
 	"os"
+	"os/exec"
 	"regexp"
 	"strings"
 
@@ -19,10 +21,7 @@ var (
 	//                                      RESULT        PACKAGE
 	pkgSummaryRx = regexp.MustCompile(`^\s*(?:ok|FAIL)\s+([-\w/.]+)`)
 
-	// Avoid using os.Stdin and os.Stdout directly so we can mock them during
-	// tests.
-	in  io.Reader = os.Stdin
-	out io.Writer = os.Stdout
+	testCmd = flag.String("run", "", "'go test' command to execute.")
 )
 
 // Sample `go test -v` output:
@@ -42,16 +41,50 @@ var (
 // fails, test duration, etc.
 
 func main() {
-	stdin := bufio.NewReader(in)
+	flag.Parse()
 
+	if *testCmd != "" {
+		run(*testCmd, os.Stdout)
+	} else {
+		process(bufio.NewReader(os.Stdin), os.Stdout)
+	}
+}
+
+func run(testCmd string, output io.Writer) {
+	args := strings.Split(testCmd, " ")
+	cmd := exec.Command(args[0], args[1:]...)
+
+	pipe, err := cmd.StdoutPipe()
+	input := bufio.NewReader(pipe)
+	if err != nil {
+		panic(err)
+	}
+
+	err = cmd.Start()
+	if err != nil {
+		panic(err)
+	}
+
+	process(input, output)
+
+	switch exit := cmd.Wait().(type) {
+	case *exec.ExitError:
+		os.Exit(exit.ExitCode())
+	default:
+		panic(exit.Error())
+	}
+}
+
+func process(input *bufio.Reader, output io.Writer) {
 	var (
 		currResult   test.Result
 		pkgResults   []test.Result // all the test results for a single pkg
 		startFailMsg bool          // record subsequent lines as fail msg from previous test
 	)
+
 	for {
-		line, err := stdin.ReadString('\n')
-		fmt.Fprint(out, line)
+		line, err := input.ReadString('\n')
+		fmt.Fprint(output, line)
 		if err != nil {
 			// We will not get an EOF until `go test -v` finishes writing and
 			// closes the other end of the pipe.
@@ -70,7 +103,7 @@ func main() {
 			currResult = test.Result{}
 
 			pkgName := match[1]
-			printPkgResults(pkgName, pkgResults)
+			printPkgResults(output, pkgName, pkgResults)
 			pkgResults = pkgResults[:0]
 			continue
 		}
@@ -109,10 +142,10 @@ func skipLine(line string) bool {
 }
 
 // printPkgResults prints all the TC service messages for a package's tests.
-func printPkgResults(pkgName string, pkgResults []test.Result) {
-	fmt.Fprintf(out, "##teamcity[testSuiteStarted name='%s']\n", pkgName)
+func printPkgResults(output io.Writer, pkgName string, pkgResults []test.Result) {
+	fmt.Fprintf(output, "##teamcity[testSuiteStarted name='%s']\n", pkgName)
 	for _, result := range pkgResults {
-		fmt.Fprintln(out, result)
+		fmt.Fprintln(output, result)
 	}
-	fmt.Fprintf(out, "##teamcity[testSuiteFinished name='%s']\n", pkgName)
+	fmt.Fprintf(output, "##teamcity[testSuiteFinished name='%s']\n", pkgName)
 }
